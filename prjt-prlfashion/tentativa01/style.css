@@ -18,12 +18,17 @@
     
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{ 
     color: #551A8F;
     font-family: 'Montserrat', sans-serif ;
     font-size: 18px;
     /* background-image: linear-gradient(to right, #EFEDFB, #e0d9f8, #D99B29); */
-    overflow: auto;
+    overflow: scroll;
+    scroll-behavior: smooth;
 }
 
 li {
