@@ -99,9 +99,9 @@ li {
 .conteudo01{
     height: 550px;
     background-image: linear-gradient(to top, #D99B29, #f0cb67,#F2C23D);
-     padding: 90px;
-     padding-bottom: 0px;
-     display: flex;
+    padding: 90px;
+    padding-bottom: 0px;
+    display: flex;
 }
 
 .paragrafo-intro{

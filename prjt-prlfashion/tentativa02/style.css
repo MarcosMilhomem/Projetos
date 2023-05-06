@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow: scroll;
+    scroll-behavior: smooth;
+    font-size: 18px;
+    background-color: ;
+}
+
+.linaveBar{
+    list-style-type: none;
+    padding-right: 80px;
+}
