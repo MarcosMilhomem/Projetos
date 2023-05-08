@@ -14,5 +14,18 @@ body{
     overflow: scroll;
     scroll-behavior: smooth;
     font-size: 18px;
-    background-color: blueviolet;
+    background-color: #D99B29;
+}
+
+nav {
+    display: row;
+}
+
+.navbar {
+    text-align: right;
+}
+
+.linkNav {
+
+    
 }
