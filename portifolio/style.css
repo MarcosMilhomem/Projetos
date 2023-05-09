@@ -4,6 +4,7 @@
 
 /* Colors: 
 #D99B29 -- dourado
+#171717 -- lado esquerdo do Home
 */
 
 *{
@@ -25,7 +26,6 @@ a {
 
 nav > a{
     text-decoration: none;
-    text-align: right;
     color: wheat;
     margin: 0px 40px;
 }
@@ -56,8 +56,8 @@ nav > a{
     margin-top: 2%;
 }
 
-
-.nav_2 {
+.nav_2 {    
+    background-color: #5D5D5D;
     width: 65%;
     float: right;
     height: 650px;
@@ -66,13 +66,15 @@ nav > a{
 }
 
 .nav_bar {
-    background-color: #5D5D5D;
+    align-items: flex-end;
     height: 70px;
     font-weight: 600;
+    padding-top: 20px;
 }
 
 .link_nav {
     color: #F0F0F0;
+    padding-top: 20px;
 }
 
 a::after {
@@ -104,8 +106,4 @@ a::after {
 .logos{
     height: 20px;
     border-radius: 7px;
-}
-
-div > h2 {
-    margin-left: 60px;
 }
