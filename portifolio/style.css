@@ -14,17 +14,39 @@
 
 body {
     background-color: rgb(110, 105, 105);
+    font-family: 'Montserrat', sans-serif;
 }
 
-.h1_nav {
+a {
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    position: relative;
+}
+
+nav > a{
+    text-decoration: none;
+    text-align: right;
+    color: wheat;
+    margin: 0px 40px;
+}
+
+.first_pag {
+    width: 100%;
+}
+
+.nav_1 {
     height: 650px;
-    width: 524px;
-    background-color: #1E1E1E;
-    font-family: 'Montserrat', sans-serif;
+    width: 35%;
+    float: left;
+    background-color: #171717;
     font-size: 35px;
     text-align: center;
     padding-top: 10px;
     color: white;    
+}
+
+.div_float {
+    margin-top: 70px;
 }
 
 .pontos_float_h1 {
@@ -34,29 +56,56 @@ body {
     margin-top: 2%;
 }
 
-.div_float {
-    margin-top: 70px;
-}
 
-.nav {
-    background-color: #1E1E1E;
+.nav_2 {
+    width: 65%;
+    float: right;
+    height: 650px;
     text-align: center;
-    justify-content: space-between;
+    display: row;
 }
 
-nav > a{
-    text-decoration: none;
-    text-align: right;
-    color: wheat;
-    padding: 0px 40px;
+.nav_bar {
+    background-color: #5D5D5D;
+    height: 70px;
+    font-weight: 600;
 }
 
-a {
-    text-decoration: none;
-    color: white;
+.link_nav {
+    color: #F0F0F0;
+}
+
+a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background-color: yellow;
+    transition: all 0.5s;
+  }
+
+  a:hover::after {
+    width: 100%;
+    transform: translateX(10%);
+}
+
+.img_first_pag {
+    width: 945px;
+    height: 580px;
+}
+
+.pag_projetos {
+    height: 500px;
+    background-color: aquamarine;
 }
 
 .logos{
     height: 20px;
     border-radius: 7px;
+}
+
+div > h2 {
+    margin-left: 60px;
 }
