@@ -42,7 +42,10 @@ nav > a{
     font-size: 35px;
     text-align: center;
     padding-top: 10px;
-    color: white;    
+    color: white;
+    position: absolute;
+    top: 0;
+    z-index: 1;    
 }
 
 .div_float {
@@ -69,6 +72,12 @@ nav > a{
     height: 70px;
     font-weight: 600;
     padding-top: 20px;
+    box-shadow: 1px 0px 14px 1px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background-color: #5D5D5D;
+    width: 65%;
 }
 
 .link_nav {
@@ -93,17 +102,18 @@ a::after {
 }
 
 .img_first_pag {
-    width: 65%;
+    width: 877px;
     height: 580px;
+    position: relative;
+    margin-top: 70px;
 }
 
-.pag_about{
+.pag_about {
     width: 100%;
 }
 
 .pag_projetos {
     height: 500px;
-    background-color: aquamarine;
 }
 
 .logos{
