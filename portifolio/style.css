@@ -66,7 +66,6 @@ nav > a{
 }
 
 .nav_bar {
-    align-items: flex-end;
     height: 70px;
     font-weight: 600;
     padding-top: 20px;
@@ -94,8 +93,12 @@ a::after {
 }
 
 .img_first_pag {
-    width: 945px;
+    width: 65%;
     height: 580px;
+}
+
+.pag_about{
+    width: 100%;
 }
 
 .pag_projetos {
