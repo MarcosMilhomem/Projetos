@@ -52,6 +52,10 @@ nav > a{
     margin-top: 70px;
 }
 
+.div_float h2 {
+    margin-left: 300px;
+}
+
 .pontos_float_h1 {
     color: rgba(190, 186, 186, 0.233);
     text-align: left;
@@ -60,7 +64,9 @@ nav > a{
 }
 
 .nav_2 {    
-    background-color: #5D5D5D;
+    background-image: url(midias/calebe_arp.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 65%;
     float: right;
     height: 650px;
