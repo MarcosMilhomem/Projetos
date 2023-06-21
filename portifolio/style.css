@@ -49,11 +49,12 @@ nav > a{
 }
 
 .div_float {
+    position: relative;
     margin-top: 70px;
 }
 
 .div_float h2 {
-    margin-left: 300px;
+    margin-top: 50px;
 }
 
 .pontos_float_h1 {
