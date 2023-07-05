@@ -2,18 +2,23 @@
 
 body {
     margin: 0px;
+    background-color: gray;
+}
+
+ul {
+    list-style: none ;
 }
 
 #logo-nav {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     background: fixed;
     border-radius: 0px 10px 0px 10px;
 }
 
-.nav {
+.nav-bar {
     background: rgb(250, 125, 250);
-    height: 100px;
+    height: 80px;
     width: 100%;
     box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.315);
     border-radius: 0px 0px 10px 10px;
