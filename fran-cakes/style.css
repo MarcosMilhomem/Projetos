@@ -12,11 +12,13 @@
     --cor5: #614461;
 
     --font-Padrao: 'Roboto', sans-serif;
+    --font-Destaque: 'Great Vibes', cursive;
 }
 
 body {
     margin: 0px;
     background-color: gray;
+    background-image: url('imagens/fundo.jpg');
 }
 
 nav {
@@ -63,4 +65,26 @@ ul {
 .link-nav:hover {
     color: #ffd694;
     transition: 0.15s;
+}
+
+.conteudo {
+    display: flex;
+}
+
+.pag1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo-pag1 {
+    font-family: var(--font-Destaque);
+    font-size: 7em;
+    margin: 200px 100px;
+}
+
+.texto-pag1 {
+    font-family: var(--font-Padrao);
+    font-size: 2.0em;
+    max-width: 600px;
 }
