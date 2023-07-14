@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 :root {
-    --cor1: #fa7dfa;
+    --cor1: #70372B;
     --cor2: #E09DE0;
     --cor3: #AD79AD;
     --cor4: #694369;
@@ -38,7 +38,7 @@ ul {
 }
 
 .nav-bar {
-    background: #fa7dfa;
+    background: var(--cor1);
     height: 80px;
     width: 100%;
     box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.315);
