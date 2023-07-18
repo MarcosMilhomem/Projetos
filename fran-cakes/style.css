@@ -89,6 +89,7 @@ ul {
 .texto-pag1 {
     font-family: var(--font-Padrao);
     font-size: 2.0em;
+    font-weight: 500;
     color: var(--corTextos);
     max-width: 600px;
 }
