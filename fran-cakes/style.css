@@ -95,7 +95,12 @@ ul {
 }
 
 .pag2 {
-    background-color: var(--cor2);
+    background-color: white;
+}
+
+.div-texto2 { 
+    width: 700px;
+    margin: auto;
 }
 
 .titulo-pag2 {
@@ -104,5 +109,17 @@ ul {
     font-weight: normal;
     letter-spacing: 1px;
     color: var(--corTextos);
+    padding: 20px;
     text-align: center;
+    border-top: 2px solid var(--cor2);
+}
+
+.grupo-imagens-pag2 {
+    max-width: 500px;
+    display: flex;
+    gap: 30px;
+}
+
+.imagens-pag2 {
+    width: 260px;
 }
