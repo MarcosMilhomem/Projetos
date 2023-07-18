@@ -117,9 +117,10 @@ ul {
 .grupo-imagens-pag2 {
     max-width: 500px;
     display: flex;
-    gap: 30px;
+    
 }
 
 .imagens-pag2 {
+    gap: 30px;
     width: 260px;
 }
