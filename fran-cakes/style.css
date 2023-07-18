@@ -23,6 +23,10 @@ body {
     background-image: url('imagens/fundo.jpg');
 }
 
+section {
+    position: absolute;
+}
+
 nav {
     display: flex;
 }
