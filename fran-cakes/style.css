@@ -20,60 +20,9 @@
     --font-Titulos: 'Hind Siliguri', sans-serif;
 }
 
-body {
+* {    
     margin: 0px;
     padding: 0px;
-}
-
-nav {
-    display: flex;
-}
-
-ul {
-    list-style: none;
-    display: flex;
-}
-
-.imgFundo-pag1 {
-    background-image: url('imagens/fundo.jpg');
-    background-repeat: no-repeat;
-}
-
-#logo-nav {
-    height: 80px;
-    width: 80px;
-    background: fixed;
-    border-radius: 0px 10px 0px 10px;
-}
-
-.nav-bar {
-    background: var(--cor1);
-    height: 80px;
-    width: 100%;
-    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.315);
-    border-radius: 0px 0px 10px 10px;
-}
-
-.ul-navegacao {
-    margin-left: 500px;
-    align-items: center;
-}
-
-.li-navegacao {
-    font-family: var(--font-Padrao);
-    font-size: 1.3em;
-    margin-left: 80px;
-}
-
-.link-nav {
-    color: var(--cor2);
-    text-decoration: none;
-    padding: 10px;
-}
-
-.link-nav:hover {
-    color: #ffd694;
-    transition: 0.15s;
 }
 
 .pag1 {

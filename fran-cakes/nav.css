@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+nav {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-bar {
+    background: var(--cor1);
+    height: 100px;
+    max-width: 100%;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.315);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.imgFundo-pag1 {
+    background-image: url('imagens/fundo.jpg');
+    background-repeat: no-repeat;
+}
+
+#logo-nav {
+    height: 80px;
+    width: 80px;
+    background: fixed;
+    border-radius: 0px 10px 0px 10px;
+}
+
+.ul-navegacao {
+    margin-left: 40vw;
+    align-items: center;
+}
+
+.li-navegacao {
+    font-family: var(--font-Padrao);
+    font-size: 1.3em;
+    margin-left: 80px;
+}
+
+.texto-nav {
+    text-align: center;
+}
+
+.link-nav {
+    color: var(--cor2);
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.link-nav:hover {
+    color: #ffd694;
+    transition: 0.15s;
+}
