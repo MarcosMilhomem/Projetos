@@ -22,9 +22,7 @@
 
 body {
     margin: 0px;
-    background-color: gray;
-    background-image: url('imagens/fundo.jpg');
-    background-repeat: no-repeat;
+    padding: 0px;
 }
 
 nav {
@@ -34,6 +32,11 @@ nav {
 ul {
     list-style: none;
     display: flex;
+}
+
+.imgFundo-pag1 {
+    background-image: url('imagens/fundo.jpg');
+    background-repeat: no-repeat;
 }
 
 #logo-nav {
@@ -77,6 +80,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-image: url(imagens/fundo.jpg);
 }
 
 .titulo-pag1 {
