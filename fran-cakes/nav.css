@@ -34,6 +34,23 @@ ul {
     display: flex;
 }
 
+a {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+.link-txt-nav:hover {
+    text-decoration: underline;
+}
+
+.txt-nav {
+    background-color: var(--cor2);
+    color: var(--corTextos);
+    font-family: var(--font-Titulos);
+    text-align: center;
+    letter-spacing: 2px;
+}
+
 .nav-bar {
     background: var(--cor1);
     height: 100px;
@@ -41,11 +58,6 @@ ul {
     box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.315);
     border-radius: 0px 0px 10px 10px;
 }
-
-/* .imgFundo-pag1 {
-    background-image: url('imagens/fundo.jpg');
-    background-repeat: no-repeat;
-} */
 
 #logo-nav {
     height: 80px;
@@ -80,4 +92,18 @@ ul {
 .link-nav:hover {
     color: #ffd694;
     transition: 0.15s;
+}
+
+.link-nav::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    background-color: var(--cor2);
+    transition: all 0.5s;
+}
+
+.link-nav:hover::after {
+    width: 100%;
+    transform: translateX(10%);
 }

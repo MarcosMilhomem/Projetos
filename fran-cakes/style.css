@@ -50,7 +50,6 @@
 
 .pag2 {
     background-color: white;
-    position: static;
 }
 
 .div-texto2 { 
@@ -69,12 +68,19 @@
     border-top: 2px solid var(--cor2);
 }
 
-.grupo-imagens-pag2 {
-    max-width: 500px;
+.imagens-pag2 {
+    max-width: 200px;
     display: flex;
 }
 
-.imagens-pag2 {
-    gap: 30px;
-    width: 260px;
+.bloco-img-1 {
+    display: flex;
+    gap: 100px;
+    margin-left: 20%;
+}
+
+.bloco-img-2 {
+    display: flex;
+    gap: 100px;
+    margin-left: 20%;
 }
