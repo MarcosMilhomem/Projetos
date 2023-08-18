@@ -30,6 +30,7 @@
     align-items: center;
     justify-content: space-between;
     background-image: url(imagens/fundo.jpg);
+    background-position: top center;
 }
 
 .titulo-pag1 {
@@ -49,6 +50,7 @@
 
 .pag2 {
     background-color: white;
+    position: static;
 }
 
 .div-texto2 { 

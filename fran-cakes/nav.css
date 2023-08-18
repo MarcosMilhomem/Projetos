@@ -15,9 +15,13 @@
     --font-Titulos: 'Hind Siliguri', sans-serif;
 }
 
+body{
+    position: relative;
+}
 
 header {
-    position: fixed;
+    position: sticky;
+    top: 0;
     background-color: var(--cor1);
 }
 
@@ -28,7 +32,6 @@ nav {
 ul {
     list-style: none;
     display: flex;
-    position: sticky;
 }
 
 .nav-bar {
