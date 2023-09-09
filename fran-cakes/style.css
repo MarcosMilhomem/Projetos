@@ -30,6 +30,7 @@
     align-items: center;
     justify-content: space-between;
     background-image: url(imagens/fundo.jpg);
+    background-repeat: no-repeat;
     background-position: top center;
 }
 
