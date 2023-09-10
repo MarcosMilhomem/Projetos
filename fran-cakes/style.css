@@ -70,23 +70,59 @@
 }
 
 .imagens-pag2 {
-    max-width: 250px;
     border-radius: 15px 0px 25px 0px;
     display: flex;
-    
+    background-image: url('imagens/produto-cupcake.jpeg');
+    height: 300px;
+}
+
+#img1 {
+    width: 300px;
+    background-size: 300px;
+    background-image: url('imagens/produto-naked-cake.jpg');
+}
+
+#img2 {
+    background-size: 300px;
+    width: 300px;
+    background-image: url('imagens/produto-naked-cake.jpg');
+}
+
+#img3 {
+    background-size: 300px;
+    width: 300px;
+    background-image: url('imagens/produto-naked-cake.jpg');
+}
+
+#img4 {
+    background-size: 300px;
+    width: 300px;
+    background-image: url('imagens/produto-naked-cake.jpg');
+}
+
+#img5 {
+    background-size: 300px;
+    width: 300px;
+    background-image: url('imagens/produto-naked-cake.jpg');
+}
+
+#img6 {
+    background-size: 300px;
+    width: 300px;
+    background-image: url('imagens/produto-naked-cake.jpg');
 }
 
 .bloco-img-1 {
     display: flex;
     gap: 100px;
-    margin-left: 15%;
+    margin-left: 10%;
     margin-right: 20%;
 }
 
 .bloco-img-2 {
     display: flex;
     gap: 100px;
-    margin-left: 15%;
+    margin-left: 10%;
     margin-right: 20%;
     margin-top: 40px;
 }

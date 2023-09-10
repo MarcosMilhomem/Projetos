@@ -94,7 +94,7 @@ a {
     transition: 0.15s;
 }
 
-.link-nav::after {
+/* .link-nav::after {
     content: "";
     position: absolute;
     left: 0;
@@ -106,4 +106,4 @@ a {
 .link-nav:hover::after {
     width: 100%;
     transform: translateX(10%);
-}
+} */
