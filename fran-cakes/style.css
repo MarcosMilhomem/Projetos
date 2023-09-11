@@ -69,60 +69,47 @@
     border-top: 2px solid var(--cor2);
 }
 
-.imagens-pag2 {
-    border-radius: 15px 0px 25px 0px;
-    display: flex;
-    background-image: url('imagens/produto-cupcake.jpeg');
-    height: 300px;
-}
-
-#img1 {
-    width: 300px;
-    background-size: 300px;
-    background-image: url('imagens/produto-naked-cake.jpg');
-}
-
-#img2 {
-    background-size: 300px;
-    width: 300px;
-    background-image: url('imagens/produto-naked-cake.jpg');
-}
-
-#img3 {
-    background-size: 300px;
-    width: 300px;
-    background-image: url('imagens/produto-naked-cake.jpg');
-}
-
-#img4 {
-    background-size: 300px;
-    width: 300px;
-    background-image: url('imagens/produto-naked-cake.jpg');
-}
-
-#img5 {
-    background-size: 300px;
-    width: 300px;
-    background-image: url('imagens/produto-naked-cake.jpg');
-}
-
-#img6 {
-    background-size: 300px;
-    width: 300px;
-    background-image: url('imagens/produto-naked-cake.jpg');
-}
-
 .bloco-img-1 {
     display: flex;
     gap: 100px;
     margin-left: 10%;
-    margin-right: 20%;
+    margin-right: 5%;
+}
+
+.imagens1-pag2 {
+    width: 90%;
+    gap: 100px;
+    display: flex;
+    background-color: #614461;
+}
+
+.imagem {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px 0px 25px 0px;
+    background-image: url('imagens/produto-cupcake.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.txt-produtos {
+    text-align: center;
+    margin-top: 200px;
+    background-color: var(--cor2);
+    padding: 15px;
+    padding-right: 30px;
+    color: var(--corTextos);
 }
 
 .bloco-img-2 {
     display: flex;
-    gap: 100px;
     margin-left: 10%;
-    margin-right: 20%;
+    margin-right: 5%;
     margin-top: 40px;
+}
+
+.imagens2-pag2 {
+    height: 300x;
+    width: 300px;
+    border-radius: 15px 0px 25px 0px;
 }
