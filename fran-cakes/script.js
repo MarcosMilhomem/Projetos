@@ -1,8 +1,4 @@
-function animacao() {
-    var t = document.querySelector ('div.txt-produtos')
-    if (onmouseenter == true) {
-        t.style.textAlign = 'left'
-    } else {
-        t.style.textAlign = 'right'
-    }
+function sair() {
+    var a = window.document.getElementById('img1')
+    a.style.transition = '3s'
 }

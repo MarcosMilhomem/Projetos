@@ -43,8 +43,20 @@
 <body>
     <div id="avo">
         <div id="pai">
-            <div id="filho"><p id="txt">asdasd</p></div>
+            <div id="filho"><p id="txt" onmouseenter="entrar()" onclick="clicou()">asdasd</p></div>
         </div>
     </div>
+    <script>
+        function entrar(){
+            const enter = document.querySelector ('p#txt')
+            enter.innerHTML = 'Legal'
+            enter.style.letterSpacing = '4px'
+            enter.style.textTransform = '2s'
+        }
+
+        function clicou() {
+            const click = document
+        }
+    </script>
 </body>
 </html>

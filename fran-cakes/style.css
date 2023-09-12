@@ -20,7 +20,11 @@
     --font-Titulos: 'Hind Siliguri', sans-serif;
 }
 
-* {    
+html {
+    scroll-behavior: smooth;
+}
+
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -53,8 +57,15 @@
     background-color: white;
 }
 
-.div-texto2 { 
-    width: 700px;
+.pag2:hover {
+    .div-texto2 {
+        width: 700px;
+        transition: 0.2s;
+    }
+}
+
+.div-texto2 {
+    width: 500px;
     margin: auto;
 }
 
@@ -103,18 +114,46 @@
     background-repeat: no-repeat;
 }
 
+.imagem:hover {
+    .txt-produtos {
+        background-color: var(--cor1);
+        color: var(--cor2);
+        transition: 0.3s;
+        letter-spacing: 10px;
+    }
+}
+
 .txt-produtos {
     text-align: center;
     margin-top: 200px;
     padding: 15px;
-    margin-left: -35px;
-    margin-right: -35px;
-    border-radius: 0px 10px 0px 15px;
+    margin-left: -55px;
+    /* margin-right: -35px; */
+    border-radius: 5px 0px 0px 20px;
     background-color: var(--corPadrao);
     color: var(--corTextos);
     font-family: var(--font-Titulos);
     text-transform: uppercase;
     letter-spacing: 2px;
+    text-indent: 50px;
+}
+
+#bolo-encomendado {
+    text-align: right;
+}
+
+#bolo-encomendado:hover {
+    letter-spacing: 5.78px;
+    text-indent: 0px;
+}
+
+#bolo-confeitado {
+    text-indent: 50px;
+}
+
+#bolo-confeitado:hover {
+    letter-spacing: 9px;
+    text-indent: 0px;
 }
 
 .bloco-img-2 {
@@ -142,4 +181,28 @@
 #img6 {
     background-image: url('imagens/fran_cakes-torta.jpg');
     background-position: right;
+}
+
+.pag3 {
+    margin-top: 40px;
+}
+
+.pag3:hover {
+    .titulo-pag3 {
+        width: 700px;
+        transition: 0.2s;
+    }
+}
+
+.titulo-pag3 {
+    margin: auto;
+    width: 500px;
+    font-size: 30px;
+    font-family: var(--font-Titulos);
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: var(--corTextos);
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid var(--cor2);
 }
