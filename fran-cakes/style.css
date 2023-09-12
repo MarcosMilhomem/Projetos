@@ -132,5 +132,14 @@
 }
 
 #img4 {
-    
+    background-image: url('imagens/fran_cakes-bolo-confeitado.jpeg');
+}
+
+#img5 {
+    background-image: url('imagens/fran_cakes-bolo-enconmendado.jpeg');
+}
+
+#img6 {
+    background-image: url('imagens/fran_cakes-torta.jpg');
+    background-position: right;
 }
