@@ -10,7 +10,7 @@
     --corTextos: #462c1a;
     --cor1: #704D34;
     --cor2: #AE9A63;
-    --corPadrao: #ffffff;
+    --corPadrao: #fdf5e5;
     --cor4: #AD79AD;
     --cor5: #694369;
     --cor6: #614461;
@@ -80,14 +80,25 @@
     width: 90%;
     gap: 100px;
     display: flex;
-    background-color: #614461;
+}
+
+#img1 {
+    background-image: url('imagens/produto-cupcake.jpeg');
+}
+
+#img2 {
+    background-image: url('imagens/produto-naked-cake.jpg');
+}
+
+#img3 {
+    background-image: url('imagens/produto-mini-bolo.jpeg');
 }
 
 .imagem {
     width: 300px;
     height: 300px;
     border-radius: 15px 0px 25px 0px;
-    background-image: url('imagens/produto-cupcake.jpeg');
+    background-color: darkcyan;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -95,21 +106,31 @@
 .txt-produtos {
     text-align: center;
     margin-top: 200px;
-    background-color: var(--cor2);
     padding: 15px;
-    padding-right: 30px;
+    margin-left: -35px;
+    margin-right: -35px;
+    border-radius: 0px 10px 0px 15px;
+    background-color: var(--corPadrao);
     color: var(--corTextos);
+    font-family: var(--font-Titulos);
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .bloco-img-2 {
     display: flex;
+    gap: 100px;
     margin-left: 10%;
     margin-right: 5%;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .imagens2-pag2 {
-    height: 300x;
-    width: 300px;
-    border-radius: 15px 0px 25px 0px;
+    width: 90%;
+    gap: 100px;
+    display: flex;
+}
+
+#img4 {
+    
 }
