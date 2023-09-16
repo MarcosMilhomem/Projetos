@@ -237,8 +237,20 @@ html {
     margin-top: 40px;
 }
 
+.contato-lado-esquerdo {
+    width: 680px;
+}
+
+.redes-sociais {
+    justify-content: center;
+}
+
 .img-contato {
     margin-top: 30px;
-    margin-left: 30px;
-    width: 180px;
+    margin-left: 90px;
+    width: 120px;
+}
+
+#logo-whatsapp {
+    margin-right: 10px;
 }
