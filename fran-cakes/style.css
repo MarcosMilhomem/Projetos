@@ -199,58 +199,94 @@ html {
 
 .pag3 {
     margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: url('imagens/torta-paralax.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .pag3:hover {
     .titulo-pag3 {
-        width: 700px;
+        color: #f7e6b9;
+        transition: 0.3s;
+    }
+
+    #txt-contato {
+        color: #f7e6b9;
+        transition: 0.3s;
+    }
+}
+
+.pag3:not(:hover) {
+    .titulo-pag3 {
+        transition: 0.2s;
+    }
+
+    #txt-contato {
         transition: 0.2s;
     }
 }
 
-.titulo-pag3:not(:hover) {
-    width: 500px;
-    transition: 0.4s;
-}
-
 .titulo-pag3 {
     margin: auto;
-    width: 500px;
-    font-size: 30px;
+    font-size: 55px;
     font-family: var(--font-Titulos);
     font-weight: normal;
     letter-spacing: 1px;
-    color: var(--corTextos);
+    color: var(--cor2);
     padding: 20px;
     text-align: center;
-    border-top: 2px solid var(--cor2);
 }
 
 #txt-contato {
     font-family: var(--font-Padrao);
     font-size: 2.0em;
     font-weight: 300;
-    color: var(--corTextos);
-    max-width: 600px;
+    color: var(--cor2);
     text-wrap: balance;
-    margin-left: 8%;
+    text-align: center;
     margin-top: 40px;
 }
 
-.contato-lado-esquerdo {
-    width: 680px;
+.conteudo-pag3 {
+    background-color: #00000062;
 }
 
 .redes-sociais {
-    justify-content: center;
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 .img-contato {
     margin-top: 30px;
-    margin-left: 90px;
-    width: 120px;
 }
 
 #logo-whatsapp {
-    margin-right: 10px;
+    width: 110px;
+    margin-right: 100px;
+}
+
+#logo-whatsapp:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+#logo-whatsapp:not(:hover) {
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+#logo-insta {
+    width: 100px;
+}
+
+#logo-insta:hover {
+    transform: scale(1.17);
+    transition: 0.3s;
+}
+
+#logo-insta:not(:hover) {
+    transform: scale(1);
+    transition: 0.3s;
 }
