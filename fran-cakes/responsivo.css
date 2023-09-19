@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media (max-width: 1280px) {
+    .nav-bar {
+        .ul-navegacao {
+            margin-left: 200px;
+        }
+    }
+
+    .titulo-pag1 {
+        font-size: 5em;
+        margin: 150px 80px;
+    }
+
+    .texto-pag1 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 1160px) {
+    .titulo-pag1 {
+        width: 500px;
+        font-size: 4em;
+        margin: 150px 30px 150px 80px;
+    }
+
+    .texto-pag1 {
+
+    }
+}
