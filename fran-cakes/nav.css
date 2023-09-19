@@ -15,6 +15,10 @@
     --font-Titulos: 'Hind Siliguri', sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body{
     position: relative;
 }
@@ -25,22 +29,19 @@ header {
     background-color: var(--cor1);
 }
 
-nav {
-    display: flex;
-}
-
-ul {
-    list-style: none;
-    display: flex;
-}
-
 a {
     text-decoration: none;
-    color: var(--cor1);
 }
 
-.link-txt-nav:hover {
-    text-decoration: underline;
+nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: var(--cor1);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
 }
 
 .txt-nav {
@@ -51,12 +52,47 @@ a {
     letter-spacing: 2px;
 }
 
-.nav-bar {
-    background: var(--cor1);
-    height: 100px;
-    max-width: 2000px;
-    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.315);
-    border-radius: 0px 0px 10px 10px;
+nav .logo img{
+    width: 80px;
+    margin-left: -40px;
+}
+
+nav a {
+    font-family: var(--font-Padrao);
+}
+
+nav a:hover {
+    color: var(--cor2);
+}
+
+.txt-nav a {
+    color: var(--cor1);
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: var(--cor2);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a.active,
+nav ul li a:hover{color: rgb(255, 214, 148);
+    ;
 }
 
 nav .menu-btn i{
@@ -64,52 +100,3 @@ nav .menu-btn i{
     cursor: pointer;
     display: none;
 }
-
-#logo-nav {
-    height: 80px;
-    width: 80px;
-    background: fixed;
-    border-radius: 0px 10px 0px 10px;
-}
-
-.ul-navegacao {
-    margin-left: 500px;
-    align-items: center;
-}
-
-.div-li {
-    display: flex;
-    padding-right: 76px;
-}
-
-.li-navegacao {
-    font-family: var(--font-Padrao);
-    font-size: 1.3em;
-    margin-left: 80px;
-    margin-right: 15px;
-}
-
-.link-nav {
-    color: var(--cor2);
-    text-decoration: none;
-    padding-left: 10px;
-}
-
-.link-nav:hover {
-    color: #ffd694;
-    transition: 0.15s;
-}
-
-/* .link-nav::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    background-color: var(--cor2);
-    transition: all 0.5s;
-}
-
-.link-nav:hover::after {
-    width: 100%;
-    transform: translateX(10%);
-} */

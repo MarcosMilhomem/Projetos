@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="responsivo.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -19,24 +19,29 @@
     <header class="nav-bar">
         <div>
             <nav>
-                <a href="#pag1">
-                    <img src="imagens/Logo-FranCakes-remove.png" alt="logo nav" id="logo-nav">
-                </a>
-                <ul class="ul-navegacao">
-                    <div class="div-li">
-                        <li class="li-navegacao">
-                            <a href="#sobre" class="link-nav">Início</a>
-                        </li>
-                        <li class="li-navegacao">
-                            <a href="" class="link-nav">Sobre</a>
-                        </li>
-                        <li class="li-navegacao">
-                            <a href="#produtos" class="link-nav">Produtos</a>
-                        </li>
-                        <li class="li-navegacao">
-                            <a href="#contatos" class="link-nav">Contatos</a>
-                        </li>
-                    </div>
+                <div class="logo">
+                    <a href="#pag1">
+                        <img src="imagens/Logo-FranCakes-remove.png" alt="logo nav" id="logo-nav">
+                    </a>
+                </div>
+
+                <div class="menu-btn">
+                    <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+                </div>
+
+                <ul>
+                    <li>
+                        <a href="#"> Início </a>
+                    </li>
+                    <li>
+                        <a href="#pag1"> Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#produtos"> Produtos</a>
+                    </li>
+                    <li>
+                        <a href="#contato"> Contato</a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -47,7 +52,8 @@
                 <h1 class="titulo-pag1">Fran Cakes</h1>
             </div>
             <p class="texto-pag1">
-                Somos a confeitaria Fran Cakes, especialistas na confecção de bolos. Nossa confeiteira Franciane, sempre prepara tudo com muito amor e carinho.
+                Somos a confeitaria Fran Cakes, especialistas na confecção de bolos. Nossa confeiteira Franciane, sempre
+                prepara tudo com muito amor e carinho.
             </p>
         </div>
         <div class="pag2" id="produtos">
@@ -105,6 +111,7 @@
     <footer>
 
     </footer>
+    <script src="nav.js"></script>
     <script src="script.js"></script>
 </body>
 
