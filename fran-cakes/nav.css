@@ -54,9 +54,15 @@ a {
 .nav-bar {
     background: var(--cor1);
     height: 100px;
-    max-width: 100%;
+    max-width: 2000px;
     box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.315);
     border-radius: 0px 0px 10px 10px;
+}
+
+nav .menu-btn i{
+    color: #fff;
+    cursor: pointer;
+    display: none;
 }
 
 #logo-nav {

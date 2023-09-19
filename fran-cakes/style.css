@@ -86,13 +86,14 @@ html {
 }
 
 .bloco-img-1 {
-    display: flex;
+    display: flexbox;
     gap: 100px;
     margin-left: 10%;
     margin-right: 5%;
 }
 
 .imagens1-pag2 {
+    columns: 2;
     width: 90%;
     gap: 100px;
     display: flex;

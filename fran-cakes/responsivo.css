@@ -19,12 +19,26 @@
 
 @media (max-width: 1160px) {
     .titulo-pag1 {
-        width: 500px;
+        width: 300px;
         font-size: 4em;
         margin: 150px 30px 150px 80px;
+    }
+    
+    .imagem1-pag2 {
+        columns: 1;
     }
 
     .texto-pag1 {
 
     }
+}
+
+@media (max-width: 1070px) {
+    .nav-bar {
+        .ul-navegacao {
+            margin-left: 130px;
+        }
+    }
+
+   
 }
