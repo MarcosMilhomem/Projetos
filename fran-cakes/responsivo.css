@@ -17,19 +17,66 @@
     }
 }
 
+@media (max-width: 1260px) {
+    .imagem {
+        width: 200px;
+        height: 200px;
+    }
+
+    .txt-produtos {
+        margin-top: 140px;
+        padding: 5px;
+        font-size: 0.9em;
+    }
+
+    .imagem:hover {
+        #bolo-encomendado {
+            letter-spacing: 4.7px;
+        }
+
+        #bolo-confeitado {
+            letter-spacing: 7px;
+        }
+    }
+
+}
+
 @media (max-width: 1160px) {
     .titulo-pag1 {
         width: 300px;
         font-size: 4em;
         margin: 150px 30px 150px 80px;
     }
-    
+
     .imagem1-pag2 {
         columns: 1;
     }
 
     .texto-pag1 {
+        max-width: 500px;
+        text-align: justify;
+        margin-right: 20px;
+    }
 
+    .imagem:hover {
+        .txt-produtos {
+            letter-spacing: 8px;
+        }
+    }
+
+
+    .oculto {
+        display: block;
+        columns: 2;
+
+    }
+}
+
+@media (max-width: 1060px) {
+    .imagem:hover {
+        #bolo-encomendado {
+            letter-spacing: 5px;
+        }
     }
 }
 
@@ -39,15 +86,14 @@
             margin-left: 130px;
         }
     }
-
-   
 }
 
 @media (max-width: 920px) {
-    nav .menu-btn i{
+    nav .menu-btn i {
         display: block;
     }
-    nav ul{
+
+    nav ul {
         position: fixed;
         top: 80px;
         left: -100%;
@@ -58,19 +104,39 @@
         display: block;
         transition: all 0.3s ease;
     }
-    nav ul.open{
+
+    nav ul.open {
         left: 0;
     }
-    nav ul li{
+
+    nav ul li {
         width: 100%;
         margin: 50px 0;
     }
+
     nav ul li a {
         font-size: 23px;
     }
+
     nav ul li a.active,
-    nav ul li a:hover{
+    nav ul li a:hover {
         background: none;
-        color: #f88f06;
-    }   
+        color: #f7e9c5;
+    }
+}
+
+@media (max-width: 700px) {
+    .txt-oculto {
+        display: block;
+        font-family: var(--font-Padrao);
+        font-size: 1.4em;
+        font-weight: 500;
+        color: var(--corTextos);
+        max-width: 600px;
+    }
+
+    .texto-pag1 {
+        display: none;
+    }
+
 }

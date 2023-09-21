@@ -69,6 +69,10 @@ html {
     transition: 0.4s;
 }
 
+.txt-oculto {
+    display: none;
+}
+
 .div-texto2 {
     width: 500px;
     margin: auto;
@@ -196,6 +200,10 @@ html {
 #img6 {
     background-image: url('imagens/fran_cakes-torta.jpg');
     background-position: right;
+}
+
+.bloco-oculto {
+    display: none;
 }
 
 .pag3 {

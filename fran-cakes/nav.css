@@ -79,7 +79,7 @@ nav ul li{
     margin: 0 5px;
 }
 
-nav ul li a{
+nav ul li a {
     color: var(--cor2);
     text-decoration: none;
     font-size: 18px;
@@ -87,16 +87,15 @@ nav ul li a{
     padding: 8px 15px;
     border-radius: 5px;
     letter-spacing: 1px;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 }
 
-nav ul li a.active,
-nav ul li a:hover{color: rgb(255, 214, 148);
-    ;
+nav ul li a.active, nav ul li a:hover {
+    color: rgb(252, 231, 197);
 }
 
-nav .menu-btn i{
-    color: #fff;
+nav .menu-btn i {
+    color: #AE9A63;
     cursor: pointer;
     display: none;
 }
