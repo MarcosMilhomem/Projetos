@@ -44,6 +44,16 @@ nav{
     flex-wrap: wrap;
 }
 
+.txt-fran {
+    color: var(--corTextos);
+    font-family: var(--font-Destaque);
+    font-weight: bolder;
+    font-size: 2em;
+    display: grid;
+    margin-left: -200px;
+    margin-top: 20px;
+}
+
 .txt-nav {
     background-color: var(--cor2);
     color: var(--corTextos);
