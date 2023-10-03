@@ -305,5 +305,6 @@ html {
 }
 
 .txt-footer {
-    background-color: var(--cor1);
+    background-image: linear-gradient();
+    height: 150px;
 }
