@@ -99,7 +99,7 @@
         display: none;
     }
 
-    .bloco-img-2{
+    .bloco-img-2 {
         display: none;
     }
 
@@ -157,9 +157,7 @@
     }
 }
 
-@media (max-width: 720px) {
-    
-}
+@media (max-width: 720px) {}
 
 @media (max-width: 700px) {
     .txt-oculto {
@@ -221,11 +219,7 @@
     .titulo-pag2 {
         width: 400px;
         margin: auto;
+        font-size: 25px;
     }
-
-    .pag2 {
-        .titulo-pag2:hover {
-            width: none;
-        }
-    }
+    
 }
