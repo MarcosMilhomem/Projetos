@@ -157,8 +157,6 @@
     }
 }
 
-@media (max-width: 720px) {}
-
 @media (max-width: 700px) {
     .txt-oculto {
         display: block;
@@ -221,5 +219,28 @@
         margin: auto;
         font-size: 25px;
     }
+
+    .div-texto2 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
     
+    .txt-fran {
+        display: none;
+    }
+
+    .bloco-oculto {
+        margin-left: 150px;
+    }
+
+    .pag2:hover {
+        .div-texto2 {
+            width: 400px;
+            transition: 0s;
+        }
+    }
+
+    .pag3 {
+        background-position: center;
+    }
 }

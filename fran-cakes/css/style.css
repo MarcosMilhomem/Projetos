@@ -104,7 +104,7 @@ html {
 }
 
 #img1 {
-    background-image: url('../imagens/produto-cupcake.jpeg');
+    background-image: url('../imagens/produto-cupcake.jpg');
 }
 
 #img2 {
@@ -112,7 +112,8 @@ html {
 }
 
 #img3 {
-    background-image: url('../imagens/produto-mini-bolo.jpeg');
+    background-image: url('../imagens/produto-bolo-vulcao.jpg');
+    background-position: center;
 }
 
 .imagem {
@@ -159,7 +160,7 @@ html {
     margin-left: -55px;
     /* margin-right: -35px; */
     border-radius: 5px 0px 0px 20px;
-    background-color: var(--corPadrao);
+    background-color: #ffffffcc;
     color: var(--corTextos);
     font-family: var(--font-Titulos);
     text-transform: uppercase;
@@ -168,7 +169,7 @@ html {
 }
 
 #bolo-encomendado {
-    text-align: right;
+    text-align: center;
 }
 
 #bolo-confeitado {
