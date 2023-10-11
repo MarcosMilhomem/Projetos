@@ -204,7 +204,7 @@
     }
 }
 
-@media (max-width: 521px) {
+@media (max-width: 615px) {
     .titulo-pag1 {
         margin-left: auto;
     }
@@ -230,7 +230,8 @@
     }
 
     .bloco-oculto {
-        margin-left: 150px;
+        margin-left: 175px;
+        margin-top: 30px;
     }
 
     .pag2:hover {
@@ -242,5 +243,30 @@
 
     .pag3 {
         background-position: center;
+    }
+
+    .div-texto2-sec {
+        width: 500px;
+        margin: auto;
+    }
+
+    .titulo-pag2-sec {
+        display: block; 
+        font-size: 30px;
+        font-family: var(--font-Titulos);
+        font-weight: normal;
+        letter-spacing: 1px;
+        color: var(--corTextos);
+        padding: 20px;
+        text-align: center;
+        border-top: 2px solid var(--cor2);  
+    }
+
+    .div-texto2 {
+        display: none;
+    }
+
+    .titulo-pag2 {
+        display: none;
     }
 }

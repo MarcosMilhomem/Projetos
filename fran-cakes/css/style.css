@@ -89,6 +89,10 @@ html {
     border-top: 2px solid var(--cor2);
 }
 
+.titulo-pag2-sec {
+    display: none;
+}
+
 .bloco-img-1 {
     display: flexbox;
     gap: 100px;
@@ -305,7 +309,27 @@ html {
     transition: 0.3s;
 }
 
-.txt-footer {
-    background-image: linear-gradient();
+footer {
+    background-color: #e4cdbb;
     height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.txt-footer {
+    color: var(--corTextos);
+    font-family: var(--font-Padrao);
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 50px;
+}
+
+.lista-contato {
+    font-family: var(--font-Padrao);
+    list-style-type: none;
+}
+
+.contato {
+    margin-top: 90px;
 }
