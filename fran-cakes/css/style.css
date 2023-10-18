@@ -311,25 +311,33 @@ html {
 
 footer {
     background-color: #e4cdbb;
-    height: 150px;
+    height: 350px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: var(--font-Padrao);
+    color: var(--corTextos);
 }
 
 .txt-footer {
-    color: var(--corTextos);
-    font-family: var(--font-Padrao);
     font-weight: bold;
     font-size: 17px;
     margin-top: 50px;
 }
 
 .lista-contato {
-    font-family: var(--font-Padrao);
     list-style-type: none;
 }
 
 .contato {
-    margin-top: 90px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.modo-contato {
+    margin-top: 15px;
+}
+
+.txt-footer {
+    display: flex;
 }
