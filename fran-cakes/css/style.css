@@ -34,6 +34,7 @@ html {
     align-items: center;
     justify-content: space-between;
     background-image: url('../imagens/fundo.jpg');
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: top center;
 }
@@ -94,7 +95,7 @@ html {
 }
 
 .bloco-img-1 {
-    display: flexbox;
+    display: flex;
     gap: 100px;
     margin-left: 10%;
     margin-right: 5%;
@@ -339,5 +340,10 @@ footer {
 }
 
 .txt-footer {
+    position: absolute;
+    background-color: #dfb99c;
+    width: 100%;
+    bottom: 10px;
     display: flex;
+    justify-content: center;
 }

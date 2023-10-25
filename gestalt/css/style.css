@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: designer;
+    src: url(../mídias/designer/DESIGNER.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-destaque: designer;
+}
+
+.pag-1 {
+    background-image: url(../midias/fundo-site.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    background-size: cover;
+}
+

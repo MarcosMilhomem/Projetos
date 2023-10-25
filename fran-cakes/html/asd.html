@@ -1,67 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style> 
-    
-        * {
-            margin: 0px;
-            padding: 0px;
-        }
+    <style>
+.fundo-video{
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
 
-        #avo {
-            background-color: tomato;
-        }
+.fundo-video .video {
+    height: 100vh;
+}
 
-        #pai {
-            width: 300px;
-            height: 300px;
-            margin: auto;
-            background-color: aqua;
-            border-radius: 30px;
-        }
-        
-        #filho {
-            height: 100%;
-            text-align: center;
-            width: 350px;
-            text-align: end;
-            background-color: blueviolet;
-        }
-
-        #txt {
-            background-color: burlywood;
-            padding: 20px 30px;
-            border-radius: 0px 10px 0px 15px;
-            position: relative;
-            top: 200px;
-            width: 350px;
-            left: -50px;
-        }
+.fundo-video::after{
+    content: "";
+    background-color:#d5011d ;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 100%);
+}
     </style>
 </head>
+
 <body>
-    <div id="avo">
-        <div id="pai">
-            <div id="filho">
-                <p id="txt" onmouseenter="entrar()" onclick="clicou()">
-                asdasd</p>
-            </div>
+    <div class="das">
+        <video autoplay muted loop>
+            <source src="../imagens/pexels-ivan-samkov-5515573 (1080p).mp4  " type="video/mp4">
+        </video>
+        <div class="texto">
+            <h1>Braboo</h1>
+            <p>texto lindão e bolo-encomendado</p>
         </div>
     </div>
-    <script>
-        function entrar(){
-            const enter = document.querySelector ('p#txt')
-            enter.innerHTML = 'Legal'
-            enter.style.letterSpacing = '4px'
-            enter.style.textTransform = '2s'
-        }
-
-        function clicou() {
-            const click = document
-        }
-    </script>
+    <div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia iure reprehenderit vel voluptate, quo commodi quaerat fugit, beatae officiis exercitationem voluptates. Expedita odio officia dolores hic cupiditate pariatur sint minima?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia iure reprehenderit vel voluptate, quo commodi quaerat fugit, beatae officiis exercitationem voluptates. Expedita odio officia dolores hic cupiditate pariatur sint minima?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia iure reprehenderit vel voluptate, quo commodi quaerat fugit, beatae officiis exercitationem voluptates. Expedita odio officia dolores hic cupiditate pariatur sint minima?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia iure reprehenderit vel voluptate, quo commodi quaerat fugit, beatae officiis exercitationem voluptates. Expedita odio officia dolores hic cupiditate pariatur sint minima?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia iure reprehenderit vel voluptate, quo commodi quaerat fugit, beatae officiis exercitationem voluptates. Expedita odio officia dolores hic cupiditate pariatur sint minima?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia iure reprehenderit vel voluptate, quo commodi quaerat fugit, beatae officiis exercitationem voluptates. Expedita odio officia dolores hic cupiditate pariatur sint minima?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia iure reprehenderit vel voluptate, quo commodi quaerat fugit, beatae officiis exercitationem voluptates. Expedita odio officia dolores hic cupiditate pariatur sint minima?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia iure reprehenderit vel voluptate, quo commodi quaerat fugit, beatae officiis exercitationem voluptates. Expedita odio officia dolores hic cupiditate pariatur sint minima?</p>
+    </div>
 </body>
+
 </html>
