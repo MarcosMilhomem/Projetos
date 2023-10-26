@@ -6,7 +6,7 @@
     --cor1: #000066;
     --cor2: #E71A3B;
     --corNav: #0000009f;
-    --cor4: #3636c7;
+    --cor4: #bdbdfd;
 
     --font-destaque: designer;
     --font-padrao: 'Tilt Neon', sans-serif;
@@ -18,7 +18,6 @@
 
 body{
     position: relative;
-    background-color: #0000667a;
 }
 
 header {
@@ -35,6 +34,7 @@ nav{
     height: 80px;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.295);
+    box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.315);
     align-items: center;
     justify-content: space-between;
     padding: 0 50px 0 100px;
@@ -49,8 +49,9 @@ nav .logo img{
 }
 
 nav a {
-    font-family: var(--font-Padrao);
+    font-family: var(--font-destaque);
     font-weight: 500;
+    color: var(--corTextos);
 }
 
 nav ul{
@@ -60,7 +61,7 @@ nav ul{
 }
 
 nav ul li{
-    margin: 0 25px;
+    margin: 0 15px;
 }
 
 nav ul li a {
@@ -70,11 +71,16 @@ nav ul li a {
     font-weight: 500;
     padding: 8px 15px;
     border-radius: 5px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    font-size: 20px;
 }
 
- nav ul li a:hover {
-    color: var(--cor4);    
+nav ul li a:hover {
+    color: var(--cor4);
+    transition: all 0.5s ease;
+}
+
+nav ul li a:not(:hover) {
     transition: all 0.2s ease;
 }
 

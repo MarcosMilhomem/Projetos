@@ -6,6 +6,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 * {
     margin: 0;
@@ -23,26 +24,39 @@
     --cor4: #3636c7;
 }
 
-header {
-    z-index: -1;
+.background {
+    background-image: url('../midias/fundo-site.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    margin-top: -80px;
 }
 
-.background {
-    background-image: url(../midias/fundo-site.jpeg);
-    background-size: cover;
-    height: 600px;
+.pag1 {
+    display: flex;
+}
+
+.pag1 p{
+    margin-top: 400px;
 }
 
 .txt-pag1 {
-    font-family: (--font-padrao);
+    margin-left: 420px;
+    font-family: var(--font-padrao);
     font-size: 40px;
-    width: 300px;
+    width: 350px;
     color: var(--corTextos);
-    margin-top: -300px;
-    margin-left: 100px;
 }
 
-.bloco-txt {
-    display: flex;
-    gap: 350px;
+.pag2 {
+    border-top: 50px solid #03036dc7;
+    background-image: linear-gradient(to bottom, #00008a, #151575, #000066);
+    height: 300px;
+}
+
+.titulo-pag2 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 65px;
+    margin-left: 30px;
+    color: var(--corTextos);
 }
