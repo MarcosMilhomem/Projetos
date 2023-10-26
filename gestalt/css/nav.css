@@ -2,17 +2,14 @@
 
 
 :root {
-    --corTextos: ;
+    --corTextos: #cad6ff;
     --cor1: #000066;
     --cor2: #E71A3B;
     --corNav: #0000009f;
-    --cor4: #AD79AD;
-    --cor5: #694369;
-    --cor6: #614461;
+    --cor4: #3636c7;
 
-    --font-Padrao: designer;
-    --font-Destaque: 'Great Vibes', cursive;
-    --font-Titulos: 'Hind Siliguri', sans-serif;
+    --font-destaque: designer;
+    --font-padrao: 'Tilt Neon', sans-serif;
 }
 
 * {
@@ -37,7 +34,7 @@ nav{
     display: flex;
     height: 80px;
     width: 100%;
-    background-color: var(--corNav);
+    background-color: rgba(255, 255, 255, 0.295);
     align-items: center;
     justify-content: space-between;
     padding: 0 50px 0 100px;
@@ -45,9 +42,8 @@ nav{
 }
 
 nav .logo img{
-    width: 100px;
-    margin-left: -40px;
-    background-color: rgba(240, 248, 255, 0.219);
+    width: 120px;
+    margin-left: 50px;
     padding: 5px;
     border-radius: 10px;
 }
@@ -57,14 +53,6 @@ nav a {
     font-weight: 500;
 }
 
-nav a:hover {
-    color: var(--cor2);
-}
-
-.txt-nav a {
-    color: var(--cor1);
-}
-
 nav ul{
     display: flex;
     flex-wrap: wrap;
@@ -72,7 +60,7 @@ nav ul{
 }
 
 nav ul li{
-    margin: 0 5px;
+    margin: 0 25px;
 }
 
 nav ul li a {
@@ -82,12 +70,12 @@ nav ul li a {
     font-weight: 500;
     padding: 8px 15px;
     border-radius: 5px;
-    letter-spacing: 1px;
-    transition: all 0.2s ease;
+    letter-spacing: 2px;
 }
 
-nav ul li a.active, nav ul li a:hover {
-    color: rgb(252, 231, 197);
+ nav ul li a:hover {
+    color: var(--cor4);    
+    transition: all 0.2s ease;
 }
 
 nav .menu-btn i {

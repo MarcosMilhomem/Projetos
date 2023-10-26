@@ -5,6 +5,8 @@
     src: url(../mídias/designer/DESIGNER.otf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,13 +14,35 @@
 
 :root {
     --font-destaque: designer;
+    --font-padrao: 'Tilt Neon', sans-serif;
+
+    --corTextos: #cad6ff;
+    --cor1: #000066;
+    --cor2: #E71A3B;
+    --corNav: #0000009f;
+    --cor4: #3636c7;
 }
 
-.pag-1 {
+header {
+    z-index: -1;
+}
+
+.background {
     background-image: url(../midias/fundo-site.jpeg);
-    width: 100%;
-    height: 100vh;
-    background-color: aqua;
     background-size: cover;
+    height: 600px;
 }
 
+.txt-pag1 {
+    font-family: (--font-padrao);
+    font-size: 40px;
+    width: 300px;
+    color: var(--corTextos);
+    margin-top: -300px;
+    margin-left: 100px;
+}
+
+.bloco-txt {
+    display: flex;
+    gap: 350px;
+}
