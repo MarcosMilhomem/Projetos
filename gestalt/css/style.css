@@ -49,16 +49,16 @@ body {
 }
 
 .txt-pag1 {
-    margin-left: 420px;
+    margin-left: 210px;
     font-family: var(--font-padrao);
     font-size: 40px;
-    width: 350px;
+    width: 450px;
     color: var(--corTextos);
 }
 
 .pag2 {
     /* background-image: url('../midias/pexels-pixabay-73873.jpg'); */
-    background-image: radial-gradient( #011250, #0e2475, #011250);
+    background-image: radial-gradient(#011250, #0e2475, #011250);
     background-attachment: fixed;
     box-shadow: 0px 0px 15px inset rgba(0, 0, 0, 0.685);
     background-size: cover;
@@ -72,7 +72,7 @@ body {
     margin-left: 95px;
     padding-top: 50px;
     text-align: left;
-    text-shadow: 0px 0px 19px#E71A3B;
+    text-shadow: 0px 5px 15px black;
     color: whitesmoke;
 }
 
@@ -100,7 +100,7 @@ body {
 }
 
 #img1 {
-    background-image: url('../midias/WhatsApp\ Image\ 2023-10-10\ at\ 17.10.23.jpeg');
+    background-image: url('../midias/WhatsApp\ Image\ 2023-10-27\ at\ 17.51.50.jpeg');
     background-size: cover;
 }
 
@@ -114,8 +114,9 @@ body {
     background-size: cover;
 }
 
-.txt-produtos1, .txt-produtos2 {
-    display: none;
+.txt-produtos1,
+.txt-produtos2 {
+    color: rgba(255, 255, 255, 0);
 }
 
 .imagem:hover {
@@ -123,13 +124,21 @@ body {
         display: block;
         text-align: center;
         margin-top: 170px;
+        margin-left: -20px;
+        margin-right: -20px;
         padding: 10px;
-        background-color: #000066a1;
+        background-color: rgba(255, 0, 0, 0.473);
         color: var(--corTextos);
-        font-family: var(--font-Titulos);
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        text-indent: 50px;
+        font-family: var(--font-padrao);
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.493);
+        letter-spacing: 5px;
+        transition: 0.3s;
+    }
+}
+
+.imagem:not(:hover) {
+    .txt-produtos1 {
+        transition: 0.2s;
     }
 }
 
@@ -137,22 +146,22 @@ body {
     .txt-produtos2 {
         display: block;
         text-align: center;
-        margin-top: 260px;
+        margin-top: 270px;
+        margin-left: -20px;
+        margin-right: -20px;
         padding: 10px;
-        background-color: #000066a1;
+        background-color: rgba(255, 0, 0, 0.473);
         color: var(--corTextos);
-        font-family: var(--font-Titulos);
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        text-indent: 50px;
+        font-family: var(--font-padrao);
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.493);
+        letter-spacing: 7px;
         transition: 0.3s;
     }
 }
 
-.imagem:not(hover) {
+.imagem:not(:hover) {
     .txt-produtos2 {
-        display: none;
-        transition: 0.3s;
+        transition: 0.2s;
     }
 }
 
@@ -195,7 +204,8 @@ body {
     text-align: center;
 }
 
-.txt-rodape, .txt-rodape a {
+.txt-rodape,
+.txt-rodape a {
     padding: 10px;
     letter-spacing: 3px;
     color: #cad6ff;
