@@ -6,7 +6,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
 
 * {
     margin: 0;
@@ -16,6 +16,7 @@
 :root {
     --font-destaque: designer;
     --font-padrao: 'Tilt Neon', sans-serif;
+    --font-titulo: 'Exo 2', sans-serif;
 
     --corTextos: #cad6ff;
     --cor1: #000066;
@@ -47,16 +48,95 @@
     width: 350px;
     color: var(--corTextos);
 }
-
+/* #D4C0B2 */
 .pag2 {
-    border-top: 50px solid #03036dc7;
-    background-image: linear-gradient(to bottom, #00008a, #151575, #000066);
-    height: 300px;
+    background-image: url('../midias/pexels-pixabay-73873.jpg');
+    background-size: cover;
+    height: 800px;
 }
 
 .titulo-pag2 {
-    font-family: 'Abril Fatface', serif;
     font-size: 65px;
-    margin-left: 30px;
+    font-family: var(--font-titulo);
+    margin-bottom: 50px;
+    margin-left: 95px;
+    padding-top: 50px;
+    text-align: left;
+    color: whitesmoke;
+}
+
+.bloco-img-1 {
+    display: flex;
+    gap: 100px;
+    margin-left: 7%;
+    margin-right: 10%;
+}
+
+.imagens1-pag2 {
+    columns: 2;
+    width: 90%;
+    gap: 100px;
+    display: flex;
+}
+
+#img1 {
+    background-image: url('../imagens/produto-cupcake.jpg');
+}
+
+#img2 {
+    background-image: url('../imagens/produto-naked-cake.jpg');
+}
+
+#img3 {
+    background-image: url('../imagens/produto-bolo-vulcao.jpg');
+}
+
+.imagem {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px 0px 25px 0px;
+    background-color: darkgray;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.txt-produtos {
+    text-align: center;
+    margin-top: 170px;
+    padding: 10px;
+    background-color: #000066a1;
     color: var(--corTextos);
+    font-family: var(--font-Titulos);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-indent: 50px;
+}
+.bloco-img-2 {
+    display: flex;
+    gap: 100px;
+    margin-left: 20%;
+    margin-right: 0%;
+    margin-top: 80px;
+}
+
+.imagens2-pag2 {
+    width: 90%;
+    gap: 100px;
+    display: flex;
+}
+
+#img4 {
+    background-image: url('../imagens/fran_cakes-bolo-confeitado.jpeg');
+}
+
+#img5 {
+    background-image: url('../imagens/fran_cakes-bolo-enconmendado.jpeg');
+}
+
+#img6 {
+    background-image: url('../imagens/fran_cakes-torta.jpg');
+}
+
+.bloco-oculto {
+    display: none;
 }
