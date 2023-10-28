@@ -33,7 +33,7 @@ nav{
     display: flex;
     height: 80px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.295);
+    background-color: rgba(255, 255, 255, 0.384);
     box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.315);
     align-items: center;
     justify-content: space-between;
@@ -51,7 +51,6 @@ nav .logo img{
 nav a {
     font-family: var(--font-destaque);
     font-weight: 500;
-    color: var(--corTextos);
 }
 
 nav ul{
@@ -65,7 +64,7 @@ nav ul li{
 }
 
 nav ul li a {
-    color: #b1b1ff;
+    color: #b5b5ec;
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
