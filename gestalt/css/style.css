@@ -6,23 +6,30 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
 
+body {
+    scroll-behavior: smooth;
+}
+
 :root {
     --font-destaque: designer;
     --font-padrao: 'Tilt Neon', sans-serif;
     --font-titulo: 'Exo 2', sans-serif;
+    --font-secundaria: 'Yellowtail', cursive;
 
     --corTextos: #cad6ff;
     --cor1: #000066;
     --cor2: #E71A3B;
     --corNav: #0000009f;
-    --cor4: #3636c7;
+    --cor4: #011250;
 }
 
 .background {
@@ -37,7 +44,7 @@
     display: flex;
 }
 
-.pag1 p{
+.pag1 p {
     margin-top: 400px;
 }
 
@@ -48,95 +55,160 @@
     width: 350px;
     color: var(--corTextos);
 }
-/* #D4C0B2 */
+
 .pag2 {
-    background-image: url('../midias/pexels-pixabay-73873.jpg');
+    /* background-image: url('../midias/pexels-pixabay-73873.jpg'); */
+    background-image: radial-gradient( #011250, #0e2475, #011250);
+    background-attachment: fixed;
+    box-shadow: 0px 0px 15px inset rgba(0, 0, 0, 0.685);
     background-size: cover;
-    height: 800px;
+    height: 880px;
 }
 
 .titulo-pag2 {
     font-size: 65px;
-    font-family: var(--font-titulo);
+    font-family: var(--font-secundaria);
     margin-bottom: 50px;
     margin-left: 95px;
     padding-top: 50px;
     text-align: left;
+    text-shadow: 0px 0px 19px#E71A3B;
     color: whitesmoke;
-}
-
-.bloco-img-1 {
-    display: flex;
-    gap: 100px;
-    margin-left: 7%;
-    margin-right: 10%;
-}
-
-.imagens1-pag2 {
-    columns: 2;
-    width: 90%;
-    gap: 100px;
-    display: flex;
-}
-
-#img1 {
-    background-image: url('../imagens/produto-cupcake.jpg');
-}
-
-#img2 {
-    background-image: url('../imagens/produto-naked-cake.jpg');
-}
-
-#img3 {
-    background-image: url('../imagens/produto-bolo-vulcao.jpg');
 }
 
 .imagem {
     width: 250px;
-    height: 250px;
+    /* height: 250px; */
     border-radius: 15px 0px 25px 0px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.568);
     background-color: darkgray;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.txt-produtos {
-    text-align: center;
-    margin-top: 170px;
-    padding: 10px;
-    background-color: #000066a1;
-    color: var(--corTextos);
-    font-family: var(--font-Titulos);
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-indent: 50px;
-}
-.bloco-img-2 {
+.bloco-img-1 {
     display: flex;
     gap: 100px;
-    margin-left: 20%;
-    margin-right: 0%;
-    margin-top: 80px;
+    height: 250px;
+    justify-content: center;
+}
+
+.imagens1-pag2 {
+    columns: 2;
+    gap: 100px;
+    display: flex;
+}
+
+#img1 {
+    background-image: url('../midias/WhatsApp\ Image\ 2023-10-10\ at\ 17.10.23.jpeg');
+    background-size: cover;
+}
+
+#img2 {
+    background-image: url('../midias/outrubro-rosa.jpeg');
+    background-size: cover;
+}
+
+#img3 {
+    background-image: url('../midias/LOGO-NK.png');
+    background-size: cover;
+}
+
+.txt-produtos1, .txt-produtos2 {
+    display: none;
+}
+
+.imagem:hover {
+    .txt-produtos1 {
+        display: block;
+        text-align: center;
+        margin-top: 170px;
+        padding: 10px;
+        background-color: #000066a1;
+        color: var(--corTextos);
+        font-family: var(--font-Titulos);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-indent: 50px;
+    }
+}
+
+.imagem:hover {
+    .txt-produtos2 {
+        display: block;
+        text-align: center;
+        margin-top: 260px;
+        padding: 10px;
+        background-color: #000066a1;
+        color: var(--corTextos);
+        font-family: var(--font-Titulos);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-indent: 50px;
+        transition: 0.3s;
+    }
+}
+
+.imagem:not(hover) {
+    .txt-produtos2 {
+        display: none;
+        transition: 0.3s;
+    }
+}
+
+.bloco-img-2 {
+    display: flex;
+    height: 350px;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .imagens2-pag2 {
-    width: 90%;
     gap: 100px;
     display: flex;
 }
 
 #img4 {
-    background-image: url('../imagens/fran_cakes-bolo-confeitado.jpeg');
+    background-image: url('../midias/WhatsApp\ Image\ 2023-10-10\ at\ 17.10.23.jpeg');
+    background-size: cover;
 }
 
 #img5 {
-    background-image: url('../imagens/fran_cakes-bolo-enconmendado.jpeg');
+    background-image: url('../midias/edição-camera.jpeg');
+    background-size: 250px;
+    background-position: center;
 }
 
 #img6 {
-    background-image: url('../imagens/fran_cakes-torta.jpg');
+    background-image: url('../midias/acai.jpeg');
+    background-size: 250px;
+    background-position: top center;
 }
 
 .bloco-oculto {
     display: none;
+}
+
+.rodape {
+    background-color: var(--cor2);
+    text-align: center;
+}
+
+.txt-rodape, .txt-rodape a {
+    padding: 10px;
+    letter-spacing: 3px;
+    color: #cad6ff;
+    font-family: var(--font-padrao);
+    font-size: 15px;
+}
+
+.link-rodape:hover {
+    color: #f59cab;
+    transition: 0.3s;
+}
+
+.link-rodape:not(hover) {
+    color: #cad6ff;
+    transition: 0.2s;
 }
