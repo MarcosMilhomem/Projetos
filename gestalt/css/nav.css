@@ -2,7 +2,7 @@
 
 
 :root {
-    --corTextos: #cad6ff;
+    --corTextos: #cdd8fc;
     --cor1: #000066;
     --cor2: #E71A3B;
     --corNav: #0000009f;
@@ -64,7 +64,7 @@ nav ul li{
 }
 
 nav ul li a {
-    color: #b5b5ec;
+    color: var(--corTextos);
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;

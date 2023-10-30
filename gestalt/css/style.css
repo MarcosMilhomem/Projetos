@@ -25,7 +25,7 @@ body {
     --font-titulo: 'Exo 2', sans-serif;
     --font-secundaria: 'Yellowtail', cursive;
 
-    --corTextos: #cad6ff;
+    --corTextos: #cfd8f5;
     --corClara: #ecedff ;
     --corNav: #0000009f;
     --cor1: #000066;
@@ -50,7 +50,7 @@ body {
 }
 
 .txt-pag1 {
-    margin-left: 210px;
+    margin-left: 320px;
     font-family: var(--font-padrao);
     font-size: 40px;
     width: 450px;
@@ -58,7 +58,6 @@ body {
 }
 
 .pag2 {
-    /* background-image: url('../midias/pexels-pixabay-73873.jpg'); */
     background-image: radial-gradient(#011250, #0e2475, #011250);
     background-attachment: fixed;
     box-shadow: 0px 0px 15px inset rgba(0, 0, 0, 0.685);
@@ -222,4 +221,24 @@ body {
 .link-rodape:not(hover) {
     color: #cad6ff;
     transition: 0.2s;
+}
+
+.background-about {
+    background-image: radial-gradient(#e97a8c,#E71A3B );
+}
+
+.about {
+    display: flex;
+}
+
+.about p {
+    margin-top: 350px;
+}
+
+.txt-about {
+    font-family: var(--font-padrao);
+    font-size: 30px;
+    color: var(--corTextos);
+    margin-left: 830px;
+    width: 450px;
 }
