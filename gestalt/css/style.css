@@ -285,3 +285,10 @@ body {
     height: 500px;
 
 }
+
+.background-trabalho {
+    background-image: url(../midias/bg-light.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
