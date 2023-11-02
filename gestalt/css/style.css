@@ -290,5 +290,27 @@ body {
     background-image: url(../midias/bg-light.jpg);
     background-position: center;
     background-size: cover;
-    height: 800px;
+    height: 650px;
+}
+
+.titulo-trabalho {
+    padding-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: var(--font-destaque);
+    font-size: 3.5em;
+    color: var(--cor2);
+}
+
+.img-trabalho {
+    margin-left: 100px;
+    width: 300px;
+}
+
+.txt-img {
+    margin-left: 190px;
+}
+
+.img1 {
+    width: 100%;
 }
