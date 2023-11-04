@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header class="nav-bar" style="background-image: url(../midias/bg-light.jpg); background-size: cover;">
+    <header class="nav-bar">
         <div>
             <nav>
                 <div class="logo">
@@ -25,7 +25,7 @@
 
                 <ul>
                     <li>
-                        <a href="#"> Home </a>
+                        <a href="index.html"> Home </a>
                     </li>
                     <li>
                         <a href="about.html"> Sobre Nós</a>
@@ -43,17 +43,51 @@
     <main>
         <div class="background-trabalho">
             <h1 class="titulo-trabalho">Nossos Trabalhos</h1>
-            <div class="bloco1">
+            <div class="bloco">
                 <div class="img1">
-                    <img src="../midias/LOGO-NK.png" alt="" class="img-trabalho">
-                    <img src="../midias/edição-camera.jpeg" alt="" class="img-trabalho">
-                    <img src="../midias/fundo-site.jpeg" alt="" class="img-trabalho">
+                    <img src="../midias/apolo/morro-gelo.jpeg" alt="" class="img-trabalho">
+                    <img src="../midias/apolo/edição-camera.jpeg" alt="" class="img-trabalho">
+                    <img src="../midias/apolo/ram.jpeg" alt="" class="img-trabalho">
                     <p class="txt-img">Marcos Milhomem</p>
-                    <div class="gp-midia">
+                    <div class="gp-midia1">
                         <a href="">
                             <img src="../midias/logo-whatsapp.jpg" alt="logo-whatsapp" class="midia">
                         </a>
+                        <a href="https://www.instagram.com/mrcs.apolo2/" target="_blank">
+                            <img src="../midias/2763311_13962.jpg" alt="logo-instagram" class="midia">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="img2">
+                    <img src="../midias/Vitoria/igraja.jpeg" alt="" class="img-trabalho">
+                    <img src="../midias/Vitoria/excursao.jpeg" alt="" class="img-trabalho">
+                    <img src="../midias/Vitoria/transform.jpeg" alt="" class="img-trabalho">
+                    <p class="txt-img">Vitória Rafaela</p>
+                    <div class="gp-midia2">
                         <a href="">
+                            <img src="../midias/logo-whatsapp.jpg" alt="logo-whatsapp" class="midia">
+                        </a>
+                        <a href="https://www.instagram.com/vitoria_severo018/" target="_blank">
+                            <img src="../midias/2763311_13962.jpg" alt="logo-instagram" class="midia">
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="img3">
+                    <div class="modal-work"></div>
+                    <img src="../midias/gisely/thanos.jpeg" alt="" class="img-trabalho work-thanos">
+                    <img src="../midias/gisely/exfisico.jpeg" alt="" class="img-trabalho work-exfisico">
+                    <div class="cards">
+                        <img src="../midias/gisely/card-visit.jpeg" alt="" class="img-trabalho work-card">
+                        <img src="../midias/gisely/card-visitV.jpeg" alt="" class="img-trabalho work-cardV">
+                    </div>
+                    <p class="txt-img">Gisely Cordeiro</p>
+                    <div class="gp-midia2">
+                        <a href="">
+                            <img src="../midias/logo-whatsapp.jpg" alt="logo-whatsapp" class="midia">
+                        </a>
+                        <a href="https://www.instagram.com/_gisely.c/" target="_blank">
                             <img src="../midias/2763311_13962.jpg" alt="logo-instagram" class="midia">
                         </a>
                     </div>
@@ -61,7 +95,29 @@
             </div>
         </div>
     </main>
+    <script>
+        const imgs = ["thanos", "card", "exfisico", "cardV"]
+        const modalWork = document.querySelector(".modal-work")
 
+        imgs.forEach(function (name, index) {
+            const img = document.getElementsByClassName("work-" + name)[0]
+            
+            img.addEventListener("click", (e) => {
+                const clone = img.cloneNode(true)
+                
+                modalWork.innerHTML = "";
+                modalWork.classList.add("open")
+                modalWork.appendChild(clone)
+            })
+        })
+
+        document.addEventListener("click", (e) => {
+            console.log(e);
+            if(e.target == modalWork) {
+                modalWork.classList.remove("open")
+            }
+        })
+    </script>
 </body>
 
 </html>
