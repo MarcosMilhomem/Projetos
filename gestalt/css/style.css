@@ -365,7 +365,7 @@ body {
     top: 0;
     right: 0;
     width: 100vw;
-    background: rgba(48, 47, 47, 0.842);
+    background: rgba(0, 0, 0, 0.842);
     height: 100vh;
     pointer-events: none;
     transition: all 0.3s;
@@ -391,7 +391,6 @@ body {
     background-image: radial-gradient(#1919a0, #070780);
     padding: 50px 0px 10px 0px;
     color: var(--cor2);
-    display: flex;
 }
 
 .cards {
