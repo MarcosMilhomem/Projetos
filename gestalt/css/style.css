@@ -30,7 +30,7 @@ body {
     --corNav: #0000009f;
     --cor1: #000066;
     --cor2: #E71A3B;
-    --cor3: rgb(255, 0, 43);
+    --cor3: #ff002b;
     --cor4: #011250;
 }
 
@@ -111,7 +111,7 @@ body {
 }
 
 #img3 {
-    background-image: url('../midias/LOGO-NK.png');
+    background-image: url('../midias/apolo/morro-gelo.jpeg');
     background-size: cover;
 }
 
@@ -180,18 +180,18 @@ body {
 }
 
 #img4 {
-    background-image: url('../midias/WhatsApp\ Image\ 2023-10-10\ at\ 17.10.23.jpeg');
+    background-image: url('../midias/apolo/excursao.jpeg');
     background-size: cover;
 }
 
 #img5 {
-    background-image: url('../midias/edição-camera.jpeg');
+    background-image: url('../midias/leandro/convite.jpeg');
     background-size: 250px;
     background-position: center;
 }
 
 #img6 {
-    background-image: url('../midias/acai.jpeg');
+    background-image: url('../midias/gisely/acai.jpeg');
     background-size: 250px;
     background-position: top center;
 }
@@ -316,10 +316,11 @@ body {
 .txt-img {
     text-align: center;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 30px; 
+    padding-left: 15px;
     font-family: var(--font-secundaria);
     font-weight: bold;
-    font-size: 22px;
+    font-size: 24px;
     letter-spacing: 4px;
     width: 400px;
 }
@@ -332,7 +333,7 @@ body {
 }
 
 .midia {
-    width: 25px;
+    width: 32px;
     margin-top: 10px;
     margin-left: 115px;
     text-align: center;   
@@ -395,4 +396,45 @@ body {
 
 .cards {
     flex-direction: column;
+}
+
+.img4 {
+    padding-top: 50px;
+    padding-bottom: 1px;
+    background-image: radial-gradient(#2222b8, #0f0f9b);
+    border-top: 3px solid var(--cor3);
+    box-shadow: 0px 5px 10px inset rgba(0, 0, 0, 0.685);
+    color: var(--cor2);
+}
+
+.img5 {
+    padding: 50px 0px 1px 0px;
+    color: var(--cor2);
+    background-image: radial-gradient(#2929ca, #1b1bc9);    
+    border-top: 3px solid var(--cor3);
+    box-shadow: 0px 5px 15px inset rgba(0, 0, 0, 0.685);
+}
+
+.img6 { 
+    padding: 60px 0px 1px 0px;
+    color: var(--cor1);
+    background-image: radial-gradient(#f3687f, #fc4f6c); 
+    border-top: 3px solid var(--cor3);
+    box-shadow: 0px 5px 15px inset rgba(0, 0, 0, 0.575);
+}
+
+.img7 { 
+    padding: 60px 0px 1px 0px;
+    color: var(--cor1);
+    background-image: radial-gradient(#fc4967, #ec3856); 
+    border-top: 3px solid var(--cor1);
+    box-shadow: 0px 5px 15px inset rgba(0, 0, 0, 0.575);
+}
+
+.img8 { 
+    padding: 60px 0px 1px 0px;
+    color: var(--cor1);
+    background-image: radial-gradient(#fc4967, #E71A3B); 
+    border-top: 3px solid var(--cor1);
+    box-shadow: 0px 5px 15px inset rgba(0, 0, 0, 0.575);
 }

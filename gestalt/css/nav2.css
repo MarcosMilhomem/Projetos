@@ -1,0 +1,22 @@
+
+
+nav ul li a {
+    color: var(--cor1);
+    font-weight: bolder;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.479);
+    transition: all 0.5s ease;
+}
+
+nav ul li a:not(:hover) {
+    transition: all 0.2s ease;
+}
+
+nav .menu-btn i {
+    color: #AE9A63;
+    cursor: pointer;
+    display: none;
+}
