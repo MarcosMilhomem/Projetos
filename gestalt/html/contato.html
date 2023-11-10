@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/responsivo.css">
     <link rel="stylesheet" href="../css/nav.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 </head>
 
 <body>
@@ -43,33 +44,25 @@
     </header>
     <main class="background2">
         <div class="cntt">
-            <h1 class="title-cntt">Entre em contato conosco:</h1>
+            <h1 class="title-cntt">| Entre em contato conosco:</h1>
             <a href="https://www.instagram.com/_gestalt.design/" target="_blank" class="linkRS">
                 <img src="../midias/2763311_13962.jpg" alt="" class="midia-cntt">
-                <p id="nomeRS">_gestalt.design</p>
+                <p class="nomeRS" id="instagram">_gestalt.design</p>
             </a>
             <div class="linkRS" id="linkCopy" style="margin-top: 50px;">
                 <img src="../midias/237.jpg" alt="" class="midia-cntt">
-                <a href="marcosapolo511@gmail.com" id="nomeRS">gestaltasd@gmail.com</a>
+                <a href="marcosapolo511@gmail.com" class="nomeRS">gestaltasd@gmail.com</a>
             </div>
         </div>
-    </main>
-    <script>
-         document.getElementById('linkCopy').addEventListener('click', function(event) {
-            event.preventDefault(); 
+    </main> 
+    <footer class="rodape">
+        <p class="txt-rodape">
+            Desenvolvido por 
+            <a href="https://wa.me/5599988160219" class="link-rodape" target="_blank">Marcos Apolo.</a>
+        </p>
+    </footer>
 
-            var linkParaCopiar = this.getAttribute('href'); 
-
-            var textarea = document.createElement('textarea');
-            textarea.value = linkParaCopiar;
-            document.body.appendChild(textarea);
-            textarea.select();
-            document.execCommand('copy');
-            document.body.removeChild(textarea);
-            
-            alert('Link copiado para a área de transferência!');
-        });
-    </script>
+    <script src="../js/contato.js"></script>
 </body>
 
 </html>
