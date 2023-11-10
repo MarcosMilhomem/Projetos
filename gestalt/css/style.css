@@ -29,8 +29,8 @@ body {
     --corClara: #ecedff ;
     --corNav: #0000009f;
     --cor1: #000066;
-    --cor2: rgb(231, 26, 59)
-    --cor3: #ff002b;
+    --cor2: #e71a3b;
+    --cor3: #f7a7a7;;
     --cor4: #011250;
 }
 
@@ -510,11 +510,45 @@ body {
     border-top: 3px solid var(--cor2);
     box-shadow: 0px 5px 15px inset rgba(0, 0, 0, 0.575);    
 }
+
 .background2 {
     background-image: url('../midias/fundo-sitereverso.jpeg');
     background-size: cover;
     background-position: top center;
-    height: 100vh;
-    width: 100vw;
+    height: 660px;
+    width: 100%;
     margin-top: -80px;
 }
+
+.title-cntt {
+    padding-top: 240px;
+    margin-left: 130px;
+    font-size: 45px;
+    font-family: var(--font-destaque);
+    color: var(--corTextos);
+}
+
+.contato-cntt {
+    margin-top: 100px;
+}
+
+.linkRS {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    gap: 20px;
+}
+
+.midia-cntt {
+    width: 45px;
+    margin-top: 10px;
+    margin-left: 135px;
+    text-align: center;   
+    border-radius: 100px; 
+}
+
+#nomeRS {
+    color: var(--corTextos);
+    font-size: 28px;
+}
+

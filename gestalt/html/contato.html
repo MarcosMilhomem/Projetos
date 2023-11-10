@@ -42,7 +42,34 @@
         </div>
     </header>
     <main class="background2">
-
+        <div class="cntt">
+            <h1 class="title-cntt">Entre em contato conosco:</h1>
+            <a href="https://www.instagram.com/_gestalt.design/" target="_blank" class="linkRS">
+                <img src="../midias/2763311_13962.jpg" alt="" class="midia-cntt">
+                <p id="nomeRS">_gestalt.design</p>
+            </a>
+            <div class="linkRS" id="linkCopy" style="margin-top: 50px;">
+                <img src="../midias/237.jpg" alt="" class="midia-cntt">
+                <a href="marcosapolo511@gmail.com" id="nomeRS">gestaltasd@gmail.com</a>
+            </div>
+        </div>
     </main>
+    <script>
+         document.getElementById('linkCopy').addEventListener('click', function(event) {
+            event.preventDefault(); 
+
+            var linkParaCopiar = this.getAttribute('href'); 
+
+            var textarea = document.createElement('textarea');
+            textarea.value = linkParaCopiar;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+            
+            alert('Link copiado para a área de transferência!');
+        });
+    </script>
 </body>
+
 </html>
