@@ -36,7 +36,7 @@
 
        /*  */
 
-@media (max-width: 530px) {
+@media (max-width: 550px) {
     .cntt {
         margin-left: -50px;
         margin-top: -65px;
@@ -47,18 +47,38 @@
     }
 
     .pag1 {
-        margin-left: -50px;
+        margin-left: -75px;
     }
 
     .txt-pag1 {
-        #text {
-            font-size: 30px;
-        }
+        flex-direction: column;
+    }
+
+    #txt1 {
+        font-size: 25px;
+    }
+
+    #txt2 {
+        font-size: 25px;
+        margin-left: 20px;
     }
 
     .txt-pag1 strong {
-        font-size: 30px;
+        font-size: 25px;
     }
+
+    .img-geral {
+        display: none;
+    }
+
+    .bloco-oculto {
+        display: flex;
+    }
+
+    .titulo-pag2 {
+        font-size: 20px;
+    }
+
 }
 
        /*  */
