@@ -1,14 +1,19 @@
-document.getElementById('linkCopy').addEventListener('click', function(event) {
-    event.preventDefault(); 
+document.addEventListener('DOMContentLoaded', function() {
+    var link = document.getElementById('links');
 
-    var linkParaCopiar = this.getAttribute('href'); 
+    if (link) {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            
+            var linkAddress = this.href;
 
-    var textarea = document.createElement('textarea');
-    textarea.value = linkParaCopiar;
-    document.body.appendChild(textarea);
-    textarea.select();
-    document.execCommand('copy');
-    document.body.removeChild(textarea);
-    
-    alert('Link copiado para a área de transferência!');
+            navigator.clipboard.writeText(linkAddress)
+                .then(function() {
+                    alert('Endereço do link copiado para a área de transferência!');
+                })
+                .catch(function(err) {
+                    console.error('Erro ao copiar endereço do link para a área de transferência: ', err);
+                });
+        });
+    }
 });

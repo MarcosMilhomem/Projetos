@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.slider-container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  width: 300%; /* 100% * número de slides */
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  flex: 1;
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 300px;
+  background-image: url('midias/backgruond3.jpg');
+}
+
+/* Adicione estilos adicionais conforme necessário */
+    </style>
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slider">
+          <div class="slide">Slide 1</div>
+          <div class="slide">Slide 2</div>
+          <div class="slide">Slide 3</div>
+        </div>
+      </div>
+</body>
+</html>

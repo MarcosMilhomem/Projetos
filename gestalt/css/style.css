@@ -9,6 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
 
 * {
     margin: 0;
@@ -28,6 +29,14 @@
     --cor2: #e71a3b;
     --cor3: #f7a7a7;;
     --cor4: #011250;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .background {
@@ -76,7 +85,6 @@
     color: whitesmoke;
 }
 
-
 .imagem {
     width: 250px;
     /* height: 250px; */
@@ -95,7 +103,6 @@
 }
 
 .imagens1-pag2 {
-    columns: 2;
     gap: 100px;
     display: flex;
 }
@@ -124,15 +131,15 @@
     .txt-produtos1 {
         display: block;
         text-align: center;
-        margin-top: 170px;
+        margin-top: 180px;
         margin-left: -20px;
         margin-right: -20px;
-        padding: 7px;
+        padding: 10px;
         background-color: rgba(255, 0, 0, 0.473);
         color: var(--corClara);
         font-family: var(--font-padrao);
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.493);
-        letter-spacing: 5px;
+        letter-spacing: 7px;
         transition: 0.3s;
     }
 }
@@ -197,7 +204,7 @@
     background-position: top center;
 }
 
-.bloco-oculto {
+#oculto {
     display: none;
 }
 
@@ -225,129 +232,6 @@
     transition: 0.2s;
 }
 
-.background-about {
-    height: 580px;
-    background-image: radial-gradient(#f05d76,#E71A3B );
-    box-shadow: 10px 10px 10px rgb(0, 0, 0);
-    display: flex;
-}
-
-.about {
-    text-indent: 120px;
-    max-width: 1000px;
-}
-
-.about h2 {
-    color: var(--corClara);
-    margin-top: 150px;
-    letter-spacing: 7px;
-    text-transform: uppercase;
-    font-family: var(--font-padrao);
-    font-size: 18px;
-    font-weight: 100;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.479);
-}
-
-.descricao-about {
-    font-family: var(--font-padrao);
-    font-weight: bold;
-    font-size: 50px;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.479);
-    margin-top: 10px;
-    color: var(--corTextos);
-}
-
-.txt-about {
-    color: var(--corClara);
-    font-family: var(--font-padrao);
-    font-size: 20px;
-    font-weight: 100;
-    letter-spacing: 1px;
-    line-height: 28px;
-    text-align: justify;
-    text-indent: 50px;
-    margin-top: 30px;
-    margin-left: 120px;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.479);
-}
-
-.pag2-about {
-    background-image: url(../midias/turma.jpeg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: 0px -10px 10px inset rgba(0, 0, 0, 0.349);
-    height: 600px;
-}
-
-.pag3-about {
-    background-color: var(--cor1);
-    display: flex;
-    height: 400px;
-    line-height: 50px;
-    justify-content: center;
-    align-items: center;
-    gap: 80px;
-}
-
-.pag3-about:hover {
-    background-color: #0000ff54;
-    transition: all 0.3s;
-}
-
-.pag3-about:not(:hover) {
-    transition: all 0.3s;
-}
-
-.pag3-about:hover {
-    .title-about {
-        text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
-    }
-
-    .sub-title-about {
-    border-bottom: 4px solid var(--cor1);
-    }
-}
-
-.pag3-about:not(:hover) {
-    .title-about {
-        transition: all 0.3s;
-    }
-}
-
-.pag3-about h1 {
-    color: var(--cor1);
-    font-family: var(--font-secundaria);
-    font-size: 80px;
-    text-shadow: 5px 5px 10px rgb(0, 0, 0);
-}
-
-.pag3-about h2 {
-    font-size: 15px;
-    font-family: var(--font-padrao);
-    color: var(--cor2);
-    text-align: center;
-    margin-top: 10px;
-    margin-left: -20px;
-    margin-right: -20px;
-    letter-spacing: 4.5px;
-    border-bottom: 4px solid var(--cor4);
-}
-
-.pag4-about {
-    background-image: url('../midias/turmaFORA.jpeg');
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 600px;
-    box-shadow: 0px 10px 10px inset rgba(0, 0, 0, 0.349);
-}
-
-.logo-about {
-    width: 300px;
-}
 
 .background-trabalho {
     background-image: url(../midias/bg-light.jpg);
@@ -363,11 +247,12 @@
     margin-bottom: 100px;
     padding-bottom: 70px;
     text-align: center;
-    font-family: var(--font-destaque);
+    font-family: var(--font-titulo);
+    text-transform: uppercase;
     font-size: 3.5em;
     color: var(--cor2);
     background-color: var(--cor1);
-    text-shadow: 3px 3px 7px var(--cor2);
+    text-shadow: 3px 0px 10px var(--cor2);
     box-shadow: 0px 0px 15px black;
 }
 
@@ -474,7 +359,7 @@
 }
 
 .img5 {
-    padding: 50px 0px 1px 0px;
+    padding: 50px 0px 1px 220px;
     color: var(--cor2);
     background-image: radial-gradient(#2929ca, #1b1bc9);    
     border-top: 3px solid var(--cor2);
@@ -512,6 +397,11 @@
     box-shadow: 0px 5px 15px inset rgba(0, 0, 0, 0.575);    
 }
 
+#bgGis {
+    height: 300px;
+    width: 500px;
+}
+
 .background2 {
     background-image: url('../midias/fundo-sitereverso.jpeg');
     background-size: cover;
@@ -530,7 +420,7 @@
     padding-top: 240px;
     margin-left: 130px;
     font-size: 45px;
-    font-family: var(--font-destaque);
+    font-family: var(--font-secundaria);
     color: var(--corTextos);
 }
 
@@ -542,7 +432,12 @@
     display: flex;
     margin-top: 50px;
     align-items: center;
+    text-decoration: none;
     gap: 20px;
+}
+
+.nomeRS {
+    font-family: var(--font-padrao);
 }
 
 .linkRS:hover {
@@ -579,7 +474,62 @@
 
 .nomeRS {
     color: var(--corTextos);
+    text-decoration: none;
     font-size: 28px; 
     margin-left: 210px;
 }
 
+.img-txt {
+    border-radius: 500px;
+    width: 20px;
+}
+
+.background3 {
+    height: 170vh;
+    width: 100%;
+    background-image: url('../midias/backgruond3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#pag1 .titulo-apostilha {
+    color: var(--corTextos);
+    font-family: var(--font-padrao);
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.txt-download {
+    color: rgb(180, 180, 180);
+    font-family: var(--font-padrao);
+    text-align: center;
+    font-size: 22px;
+    background-color: rgba(24, 24, 24, 0.521);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    padding: 40px;
+    width: 300px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+div .link {
+    margin: 10px auto;
+}
+
+.txt-download:hover {
+    box-shadow: 16px 10px 15px rgba(0, 0, 0, 0.534);
+    transition: all 0.2s;
+}
+
+.txt-download:not(:hover) {
+    transition: 0.4s;
+}
+
+#especial:hover {
+    box-shadow: 0px 0px 28px  rgb(255, 255, 255);
+}

@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: designer;
+    src: url('../mídias/designer/DESIGNER.otf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+:root {
+    --font-destaque: designer;
+    --font-padrao: 'Tilt Neon', sans-serif;
+    --font-titulo: 'Exo 2', sans-serif;
+    --font-secundaria: 'Yellowtail', cursive;
+
+    --corTextos: #cfd8f5;
+    --corClara: #ecedff ;
+    --corNav: #0000009f;
+    --cor1: #000066;
+    --cor2: #e71a3b;
+    --cor3: #f7a7a7;;
+    --cor4: #011250;
+}
+
+.background-about {
+    height: 580px;
+    background-image: radial-gradient(#f05d76,#E71A3B );
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    display: flex;
+}
+
+.about {
+    text-indent: 120px;
+    max-width: 1000px;
+}
+
+.about h2 {
+    color: var(--corClara);
+    margin-top: 150px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-family: var(--font-padrao);
+    font-size: 18px;
+    font-weight: 100;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.479);
+}
+
+.descricao-about {
+    font-family: var(--font-padrao);
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.479);
+    margin-top: 10px;
+    color: var(--corTextos);
+}
+
+.txt-about {
+    color: var(--corClara);
+    font-family: var(--font-padrao);
+    font-size: 22px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: justify;
+    text-indent: 50px;
+    margin-top: 30px;
+    margin-left: 120px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.479);
+}
+
+#pag2-about {
+    background-image: url(../midias/turma.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0px -10px 10px inset rgba(0, 0, 0, 0.349);
+    height: 600px;
+}
+
+.pag3-about {
+    background-color: var(--cor1);
+    display: flex;
+    height: 400px;
+    line-height: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.pag3-about:hover {
+    background-color: #0000ff54;
+    transition: all 0.3s;
+}
+
+.pag3-about:not(:hover) {
+    transition: all 0.3s;
+}
+
+.pag3-about:hover {
+    .title-about {
+        text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+    }
+
+    .sub-title-about {
+    border-bottom: 4px solid var(--cor1);
+    }
+}
+
+.pag3-about:not(:hover) {
+    .title-about {
+        transition: all 0.3s;
+    }
+}
+
+.pag3-about h1 {
+    color: var(--cor1);
+    font-family: var(--font-secundaria);
+    font-size: 80px;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.pag3-about h2 {
+    font-size: 15px;
+    font-family: var(--font-padrao);
+    color: var(--cor2);
+    text-align: center;
+    margin-top: 10px;
+    margin-left: -20px;
+    margin-right: -20px;
+    letter-spacing: 4.5px;
+    border-bottom: 4px solid var(--cor4);
+}
+
+.pag4-about {
+    background-image: url('../midias/turmaFORA.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    box-shadow: 0px 10px 10px inset rgba(0, 0, 0, 0.349);
+}
+
+.logo-about {
+    width: 300px;
+}

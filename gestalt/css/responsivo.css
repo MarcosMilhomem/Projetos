@@ -22,27 +22,118 @@
     --font-secundaria: 'Yellowtail', cursive;
 
     --corTextos: #cfd8f5;
-    --corClara: #ecedff ;
+    --corClara: #ecedff;
     --corNav: #0000009f;
     --cor1: #000066;
     --cor2: #e71a3b;
-    --cor3: #f7a7a7;;
+    --cor3: #f7a7a7;
+    ;
     --cor4: #011250;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1850px) {
+    .background {
+        height: 935px;
+    }
+
+    .txt-pag1 {
+        margin-left: 705px;
+        font-size: 55px;
+    }
+
+    #txt1 {
+        margin-left: 205px;
+    }
+
+    .pag1 p {
+        margin-top: 560px;
+    }
+
+    .titulo-pag2 {
+        margin-bottom: 60px;
+        padding-top: 5px;
+        text-align: center;
+    }
+
+    .bloco-img-1 {
+        gap: 100px;
+        height: 270px;
+        justify-content: center;
+    }
+
+    .bloco-img-2 {
+        height: 370px; 
+        gap: 100px; 
+        margin-top: 45px;
+    }
+
+    #img4 {
+        height: 370px;
+    }
     
+    .background-about {
+        height: 835px;
+    }
+
+    .about {
+        max-width: 1060px;
+        text-indent: 120px;
+    }
+
+    .about h2 {
+        letter-spacing: 12px;
+        font-size: 17px;
+        margin-left: 15px;
+    }
+
+    .descricao-about {
+        font-size: 58px;
+    }
+
+    .txt-about {
+        font-size: 28px;
+        margin-top: 40px;
+        line-height: 33px;
+    }
+
+    .pag4-about {
+        height: 750px;
+    }
+
+    .background2 {
+        height: 930px;
+    }
 }
 
-       /*  */
+@media (max-width: 1100px) {
+    #Gisely {
+        flex-direction: column;
+    }
+}
 
-@media (max-width: 550px) {
+/*  */
+
+@media (max-width: 565px) {
+
+    nav ul {
+        display: block;
+        margin-left: -30px;
+    }
+
+    nav ul li a {
+        margin-left: -30px;
+    }
+
+    .background {
+        height: 100vh;
+    }
+
     .cntt {
         margin-left: -50px;
         margin-top: -65px;
     }
 
-    .title-cntt {        
+    .title-cntt {
         color: whitesmoke;
     }
 
@@ -67,55 +158,157 @@
         font-size: 25px;
     }
 
-    .img-geral {
+    .pag2 {
         display: none;
     }
 
-    .bloco-oculto {
-        display: flex;
+    .txt-produtos {
+        text-align: center;
+        border-radius: 0px 6px;
+        margin-left: -20px;
+        margin-right: -20px;
+        padding: 10px;
+        background-color: rgba(255, 0, 0, 0.473);
+        color: var(--corClara);
+        font-family: var(--font-padrao);
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.493);
+        letter-spacing: 7px;
     }
 
-    .titulo-pag2 {
-        font-size: 20px;
+    .imagem {
+        height: 350px;
+        margin-top: 20px;
     }
 
+    .pag2 h1 {
+        font-size: 40px;
+        justify-content: center;
+    }
+
+    .about {
+        margin-left: -80px;
+        width: 550px;
+    }
+
+    #sub-about {
+        font-size: 15px;
+    }
+
+    .about strong {
+        font-size: 30px;
+    }
+
+    .about h3 {
+        font-size: 29px;
+        font-weight: normal;
+    }
+
+    .about p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .background-about {
+        margin-top: -50px;
+    }
+
+    .pag2-about {
+        background-image: url(../midias/turma.jpeg);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        box-shadow: 0px -10px 10px inset rgba(0, 0, 0, 0.349);
+        height: 500px;
+    }
+
+    #pag3-about {
+        background-color: #cfd8f5;
+    }
+
+    .pag3-about {
+        flex-direction: column;
+        width: 537px;
+    }
+
+    #title-about {
+        text-align: center;
+        font-size: 65px;
+        text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+    }
+
+    #sub-title-about {
+        letter-spacing: 3px;
+        border-bottom: 4px solid var(--cor1);
+    }
+
+    main ul {
+        flex-direction: column;
+    }
+
+    #bgGis {
+        margin-left: 200px;
+    }
+
+    .modal-work img {
+        margin-right: 95px;
+    }
 }
 
-       /*  */
-
-@media (max-width: 1000px) {
-    nav .menu-btn i {
-        display: block;
+@media (max-width: 530px) {
+    .about p {
+        font-size: 15px;
+        line-height: 26px;
     }
 
-    nav ul {
-        position: fixed;
-        top: 80px;
-        left: -100%;
-        background-color: var(--cor1);
-        height: 100vh;
-        width: 100%;
-        text-align: center;
-        display: block;
-        transition: all 0.3s ease;
+    #title-about {
+        font-size: 55px;
     }
 
-    nav ul.open {
-        left: 0;
+    #sub-title-about {
+        font-size: 12px;
+        letter-spacing: 3px;
+        border-bottom: 4px solid var(--cor1);
     }
 
-    nav ul li {
-        width: 100%;
-        margin: 50px 0;
+    .about h3 {
+        font-size: 27px;
+        font-weight: bold;
     }
 
-    nav ul li a {
-        font-size: 23px;
+    #sub-about {
+        font-size: 13px;
+        font-weight: bold;
     }
 
-    nav ul li a.active,
-    nav ul li a:hover {
-        background: none;
-        color: #f7e9c5;
+    .pag3-about {
+        flex-direction: column;
+        width: 502px;
+    }
+    
+    .background-about {
+        margin-top: -90px;
+    }
+    
+    #bgGis {
+        margin-left: -1px;
+    }
+
+    .background3 {
+        height: 310vh;
+    }
+
+    .background3 {
+        .nav-bar {
+            background-color: #546dc2;
+        }
+    }
+
+    #pag2-apostilha {
+        margin-top: 150px;
+    }
+
+    .bloco-apos {
+        flex-direction: column;
     }
 }

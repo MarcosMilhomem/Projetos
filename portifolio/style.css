@@ -38,7 +38,7 @@ nav > a{
     height: 650px;
     width: 35%;
     float: left;
-    background-color: #171717;
+    background-color: rgb(15, 5, 73);
     font-size: 35px;
     text-align: center;
     padding-top: 10px;
@@ -65,7 +65,7 @@ nav > a{
 }
 
 .nav_2 {    
-    background-image: url(midias/calebe_arp.jpeg);
+    background-image: url('midias/calebe_arp.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top left;
@@ -100,13 +100,13 @@ a::after {
     bottom: -2px;
     width: 0%;
     height: 2px;
-    background-color: yellow;
+    background-color: rgb(3, 6, 155);
     transition: all 0.5s;
   }
 
   a:hover::after {
     width: 100%;
-    transform: translateX(10%);
+    transform: translateX(5%);
 }
 
 .img_first_pag {
