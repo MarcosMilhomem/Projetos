@@ -2,8 +2,8 @@
 
 
 :root {
-    --corTextos: #462c1a;
-    --cor1: #704D34;
+    --corTextos: rgb(70, 44, 26);
+    --cor1: rgb(112, 77, 51);
     --cor2: #AE9A63;
     --corPadrao: #ffffff;
     --cor4: #AD79AD;
