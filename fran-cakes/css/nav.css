@@ -34,7 +34,8 @@ a {
 }
 
 nav{
-    display: flex;
+    display: flex;  
+    z-index: -1;
     height: 80px;
     width: 100%;
     background-color: var(--cor1);
