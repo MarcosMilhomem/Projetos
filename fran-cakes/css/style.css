@@ -58,7 +58,7 @@ div.box {
     position: relative; 
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.103), rgba(255, 255, 255, 0.836));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.103), rgba(255, 255, 255, 0.836));
     z-index: 1;
 }
 
@@ -301,12 +301,13 @@ div.box {
 .img-contato {
     margin-top: 100px;
     margin-bottom: 50px;
+    background-color: rgba(223, 221, 219, 0.671);
+    border-radius: 100px;
+    width: 100px;
 }
 
 #logo-whatsapp {
-    width: 110px;
     margin-right: 100px;
-    border-radius: 100px;
 }
 
 #logo-whatsapp:hover {
@@ -318,11 +319,6 @@ div.box {
 #logo-whatsapp:not(:hover) {
     transform: scale(1);
     transition: 0.3s;
-}
-
-#logo-insta {
-    border-radius: 100px;
-    width: 110px;
 }
 
 #logo-insta:hover {
@@ -338,12 +334,17 @@ div.box {
 
 footer {
     background-color: #e4cdbb;
-    height: 350px;
+    height: 450px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: var(--font-Padrao);
     color: var(--corTextos);
+}
+
+div.marca-engaja {
+    text-align: center;
+    margin-top: 20px;
 }
 
 .txt-footer {
