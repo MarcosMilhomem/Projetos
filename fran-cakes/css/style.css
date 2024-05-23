@@ -168,6 +168,7 @@ div.box {
         color: var(--cor2);
         transition: 0.5s;
         letter-spacing: 10px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.349);
     }
 
     #img1 {
